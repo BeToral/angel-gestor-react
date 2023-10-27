@@ -1,0 +1,638 @@
+{
+    "Nav": [
+        "TRÁMITES",
+        "CITA DE VERIFICACIÓN",
+        "NOSOTROS",
+        "CONTACTO"
+    ],
+    "Hero": [
+        "Tu trámite listo en",
+        "3 días hábiles",
+        "Expertos en gestoría vehicular del Estado de Morelos desde el año 2019",
+        "Asesoría por whatsapp"
+    ],
+    "Asesoria": [ 
+        "ASESORÍA GRATUITA",
+        "Deja tu número y te contactaremos",
+        "NOMBRE COMPLETO",
+        "TELEFONO",
+        "PONTE EN CONTACTO"
+    ],
+    "Factura": "*Si requieres factura, podemos facturar nuestros servicios.",
+    "Adicional": ["- Acta Constitutiva.", "- RFC."],
+    "Tramites": {
+        "Altas": {
+            "VehiculoNuevo": {
+                "icon": "icon",
+                "Titulo": "ALTA DE VEHÍCULO NUEVO",
+                "Descripción": "<span>Inicia una historia de buenas decisiones</span> al adquirir tu vehículo nuevo. <span>Al emplacar en Morelos puedes circular en todo el país</span>, entre muchas otras ventajas. Solo debes contar con tu primer emplacamiento en orden, proceso del que nos podemos encargar por ti.<br/><span>El alta de vehículo nuevo</span> aplica para vehículos y motocicletas recién salidos de agencia, que por tanto nunca han sido emplacados, pero <span>deben contar con su placa, engomado, holograma y tarjeta de circulación lo antes posible</span> para poder circular libremente.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Identificación vigente.",
+                        "- Seguro vehicular.",
+                        "- Factura origen (con XML).",
+                        "- Carta factura."
+                    ],
+                    "Adicional": true,
+                    "EnCuenta": false,
+                    "Incluye": [
+                        "- Placas.",
+                        "- Tarjeta de circulación.",
+                        "- Engomado.",
+                        "- Holograma.",
+                        "- Recibo de pago (alta en Morelos).",
+                        "Asesoría y gestoría.",
+                        "- Cita de verificación."
+                    ],
+                    "Pasos": [
+                        "- Contáctanos para asesorarte.",
+                        "- Envía tus requisitos escaneados (no fotos).",
+                        "- Paga el anticipo del 50%.",
+                        "- Te notificamos cuando tu trámite esté listo.",
+                        "- Enviamos tu trámite a domicilio."
+                    ]
+                },
+                "Disclaimer": "En caso de que no hayas conseguido un permiso de circulación al adquirir tu vehículo nuevo, nosotros también <span>podemos apoyarte con el permiso de circulación por 30 días naturales</span>, tiempo más que suficiente para que emplaquemos tu vehículo en Morelos."
+            },
+            "VehiculoForaneo": {
+                "icon": "icon",
+                "Titulo": "ALTA DE VEHÍCULO FORÁNEO",
+                "Descripción": "Ocurre que en ocasiones los propietarios de autos o motos <span>no saben en qué estado de la república pueden emplacar sus vehículos y los beneficios</span> logísticos y económicos que tiene esa decisión. Te ayudamos a emplacar en Morelos de la forma ágil, rápida y segura.<br/>El <span>alta de vehículo foráneo</span> aplica para automóviles y motocicletas con placas de cualquier otro estado de la república <span>cuando el propietario de dicho vehículo está interesado en cambiar sus placas a Morelos</span>. Te enviamos tus nuevas placas a cualquier punto del país.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "-Tarjeta de circulación foránea.",
+                        "-Identificación vigente.",
+                        "-Seguro vehicular.",
+                        "- Factura origen (con XML) y refactura (si aplica).",
+                        "- Últimos 5 pagos foráneos del vehículo.",
+                        "- Placas foráneas en físico o baja foránea."
+                    ],
+                    "Adicional": true,
+                    "EnCuenta": false,
+                    "Incluye": [
+                        "-Placas.",
+                        "- Tarjeta de circulación.",
+                        "- Engomado.",
+                        "-Holograma.",
+                        "- Recibo de pago (alta en Morelos).",
+                        "- Asesoría y gestoría.",
+                        "- Cita de verificación."
+                    ],
+                    "Pasos": [
+                        "- Contáctanos para asesorarte.",
+                        "- Envía tus requisitos escaneados (no fotos).",
+                        "- Paga el anticipo del 50%.",
+                        "- Te notificamos cuando tu trámite esté listo.",
+                        "- Enviamos tu trámite a domicilio."
+                    ]
+                },
+                "Disclaimer":"Para que sigas circulando mientras llevamos a cabo tu emplacamiento con cambio de propietario, <span>podemos apoyarte con el permiso de circulación por 30 días naturales</span>."
+            },
+            "AltaForanea": {
+                "icon": "icon",
+                "Titulo": "ALTA FORÁNEA CON CAMBIO DE PROPIETARIO",
+                "Descripción": "<span>La mejor decisión que puedes tomar al adquirir un vehículo usado es ponerlo oficialmente a tu nombre</span>. Al comprar un vehículo usado el propietario oficial ante las autoridades del país, sigue siendo la persona que aparece en la tarjeta de circulación.<br/>Aplica para autos y motos emplacados en cualquier otro estado de la república <span>cuando la persona que adquirió el vehículo está interesada en cambiar sus placas a Morelos</span>, pero aún no es el propietario oficial de dicho vehículo. Te ayudamos ser el propietario oficial.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Tarjeta de circulación foránea.",
+                        "- Identificación vigente (propietario anterior y nuevo propietario).",
+                        "- Seguro vehicular.",
+                        "- Factura origen (con XML) y refactura (si aplica).",
+                        "- Endoso, refactura o contrato de compraventa.",
+                        "- Últimos 5 pagos foráneos del vehículo.",
+                        "- Placas foráneas en físico o baja foránea."
+                    ],
+                    "Adicional": true,
+                    "EnCuenta": false,
+                    "Incluye": [
+                        "-Placas.",
+                        "- Tarjeta de circulación (nuevo propietario).",
+                        "-Engomado",
+                        "- Holograma.",
+                        "- Recibo de pago (alta y cambio de propietario).",
+                        "- Asesoría y gestoría.",
+                        "- Cita de verificación."
+                    ],
+                    "Pasos": [
+                        "- Contáctanos para asesorarte.",
+                        "- Envía tus requisitos escaneados (no fotos).",
+                        "- Paga el anticipo del 50%.",
+                        "- Te notificamos cuando tu trámite esté listo.",
+                        "- Enviamos tu trámite a domicilio."
+                    ]
+                },
+                "Disclaimer":"Dada la necesidad de seguir circulando mientras llevamos a cabo tu emplacamiento, también <span>podemos apoyarte con el permiso de circulación por 30 días naturales</span>."
+            }
+        },
+        "Bajas": {
+            "BajaPlacas": {
+                "icon": "icon",
+                "Titulo": "BAJA DE PLACAS",
+                "Descripción": "Con este proceso te despides de tus placas de Morelos de forma segura, rápida y sencilla. Si vas a vender tu vehículo, <span>con la baja lo haces mucho más atractivo para tu comprador al estar libre de placas</span>, de esta forma el nuevo dueño lo puede emplacar donde guste.<br/>Aplica para autos y motos emplacados en Morelos que requieren su baja del estado. Ya sea que el propietario quiere cambiar sus placas a otro estado, o lamentablemente  fue víctima de un delito o percance que requiere que su baja sea lo más pronto posible.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Tarjeta de circulación.",
+                        "- Identificación vigente,",
+                        "- Factura origen (con XML) y refactura (si aplica).",
+                        "- Placas en físico.",
+                        "- Acta de ministerio público, por robo o extravió."
+                    ],
+                    "Adicional": true,
+                    "EnCuenta": false,
+                    "Incluye": [
+                        "- Constancia de baja.",
+                        "- Recibo de pago (baja de Morelos).",
+                        "- Asesoría y gestoría."
+                    ],
+                    "Pasos": [
+                        "- Contáctanos para asesorarte.",
+                        "- Envía tus requisitos escaneados (no fotos).",
+                        "- Paga el anticipo del 50%.",
+                        "- Te notificamos cuando tu trámite esté listo.",
+                        "- Enviamos tu trámite a domicilio."
+                    ]
+                },
+                "Disclaimer":"Debido a la necesidad de que sigas circulando mientras llevamos a cabo tu baja de Morelos o en lo que logras vender tu vehículo o simplemente emplacar en otro estado, también <span>podemos apoyarte con el permiso de circulación por 30 días naturales</span>."
+            },
+            "BajayAlta": {
+                "icon": "icon",
+                "Titulo": "BAJA Y ALTA (ROBO DE VEHÍCULO O EXTRAVIÓ DE PLACAS)",
+                "Descripción": "Si tu caso lo requiere, damos de baja tus placas actuales de Morelos y hacemos el alta de tus placas nuevas. Si solo perdiste una placa, de igual forma se debe dar de baja y alta con nuevas placas, ya que el estado de Morelos no repone placas, solo las sustituye. Al circular por carretera u otro terreno poco habitual puedes haber perdido una o ambas placas o al ser víctima del robo de tu vehículo, por tanto debes dar de baja tus placas lo más rápido posible para evitar que se comentan otros ilícitos con placas a tu nombre.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Tarjeta de circulación.",
+                        "- Identificación vigente.",
+                        "- Seguro vehicular.",
+                        "- Factura origen (con XML) y refactura (si aplica).",
+                        "- Placa en físico (si solo tiene una placa).",
+                        "- Acta de ministerio público por robo o extravió."
+                    ],
+                    "Adicional": true,
+                    "EnCuenta": false,
+                    "Incluye": [
+                        "- Placas (nuevas placas).",
+                        "- Tarjeta de circulación (nuevas placas).",
+                        "- Engomado (nuevas placas).",
+                        "- Holograma (nuevas placas).",
+                        "- Recibo de pago (baja y alta en Morelos).",
+                        "- Asesoría y gestoría.",
+                        "- Cita de verificación (si la requieres)."
+                    ],
+                    "Pasos": [
+                        "- Contáctanos para asesorarte.",
+                        "- Envía tus requisitos escaneados (no fotos).",
+                        "- Paga el anticipo del 50%.",
+                        "- Te notificamos cuando tu trámite esté listo.",
+                        "- Enviamos tu trámite a domicilio."
+                    ]
+                },
+                "Disclaimer":"Hacemos el alta de tus nuevas placas en cuanto tengas los papeles de tu nuevo vehículo, en caso de robo. Para que sigas circulando <span>podemos apoyarte tu permiso de circulación</span>."
+            }
+        },
+        "CambioPropietario": {
+            "CambioPropietario": {
+                "icon": "icon",
+                "Titulo": "CAMBIO DE PROPIETARIO",
+                "Descripción": "<span>La mejor decisión que puedes tomar al adquirir un vehículo usado es convertirte oficialmente en su propietario</span>. Al comprar un vehículo usado el propietario oficial ante las autoridades del país, sigue siendo la persona que aparece en la tarjeta de circulación.<br/>En este caso el proceso solo aplica para autos y motos que ya están emplacados en Morelos <span>cuando la persona que adquirió el vehículo está interesada en convertirse en el propietario oficial del vehículo</span>. Te ayudamos ser el propietario de tu nuevo vehículo.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Tarjeta de circulación.",
+                        "- Identificación vigente (propietario anterior y nuevo propietario).",
+                        "- Seguro vehicular.",
+                        "- Factura origen (con XML).",
+                        "- Endoso, refactura o contrato de compraventa."
+                    ],
+                    "Adicional": true,
+                    "EnCuenta": false,
+                    "Incluye": [
+                        "- Tarjeta de circulación (nuevo propietario).",
+                        "- Holograma de pago.",
+                        "- Recibo de pago (cambio de propietario).",
+                        "- Asesoría y gestoría.",
+                        "- Cita de verificación (Si la requieres)."
+                    ],
+                    "Pasos": [
+                        "- Contáctanos para asesorarte.",
+                        "- Envía tus requisitos escaneados (no fotos).",
+                        "- Paga el anticipo del 50%.",
+                        "- Te notificamos cuando tu trámite esté listo.",
+                        "- Enviamos tu trámite a domicilio."
+                    ]
+                },
+                "Disclaimer":"Muchas veces el cambio de propietario se da entre familiares o amigos. Lo cual convierte a este proceso en <span>un excelente regalo para darle orden y seguridad a los vehículos de tus seres queridos</span> y es una excelente manera de evitar malos entendidos con las autoridades."
+            }
+        },
+        "Comprobantes": {
+            "PagosAnteriores": {
+                "icon": "icon",
+                "Titulo": "COMPROBANTE DE PAGOS ANTERIORES",
+                "Descripción": "Una situación muy común al adquirir un vehículo, es que <span>el anterior dueño no tenía los papeles del auto o moto en orden</span>, lo cual te complicara mucho cualquier movimiento administrativo que quieras realizar con tu vehículo más los gastos extra que esto implica.<br/><span>Aplica únicamente para autos o motos emplacados en Morelos</span> y es un proceso muy simple y rápido que normalmente se resuelve por la tarde del mismo día que se solicita.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Tarjeta de circulación."
+                    ],
+                    "Adicional": false,
+                    "EnCuenta": false,
+                    "Incluye": [
+                        "- Tarjeta de circulación (nuevo propietario).",
+                        "- Holograma de pago.",
+                        "- Recibo de pago (cambio de propietario).",
+                        "- Asesoría y gestoría.",
+                        "- Cita de verificación (Si la requieres)."
+                    ],
+                    "Pasos": [
+                        "- Contáctanos para asesorarte.",
+                        " - Envía tus requisitos escaneados (no fotos).",
+                        " - Paga el anticipo del 50%.",
+                        "- Te notificamos cuando tu trámite esté listo.",
+                        "- Enviamos tu trámite a domicilio."
+                    ]
+                },
+                "Disclaimer": null
+            }
+        },
+        "TarjetaCirculacion": {
+
+            "Reposicion": {
+                "icon": "icon",
+                "Titulo": "CORRECCIÓN O REPOSICIÓN DE TARJETA DE CIRCULACIÓN",
+                "Descripción": "Nadie está exento de cometer un error, tampoco las autoridades del estado y <span>pueden cometer algún ligero error de dedo al registrar tus datos en la tarjeta de circulación</span>, como omitir o agregar alguna letra en tu apellido, sobre todo en nombres poco comunes.<br/>Lo anterior es muy poco frecuente, ya que las autoridades son muy eficientes al registrar los datos de su padrón vehicular. Pero <span>si fue tu caso, es necesario que corrijas los datos de tu tarjeta de circulación para evitar malos entendidos</span> con las autoridades de tránsito.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Tarjeta de circulación.",
+                        "- Identificación vigente.",
+                        "- Seguro vehicular.",
+                        "- Acta de ministerio público (por robo o extravió)."
+                    ],
+                    "Adicional": true,
+                    "EnCuenta": false,
+                    "Incluye": [
+                        "- Tarjeta de circulación.",
+                        "- Recibo de pago (reexpedición de tarjeta).", 
+                        "- Asesoría y gestoría.",
+                        "- Cita de verificación (si la requieres)."                   
+                    ],
+                    "Pasos": [
+                        "- Contáctanos para asesorarte.",
+                        "- Envía tus requisitos escaneados (no fotos).",
+                        "- Paga el anticipo del 50%.",
+                        "- Te notificamos cuando tu trámite esté listo.",
+                        "- Enviamos tu trámite a domicilio."
+                    ]
+                },
+                "Disclaimer":"Otro caso que aplica para este proceso es <span>cuando extravías o te roban tu tarjeta de circulación</span>. En esta situación debes levantar una denuncia por el robo o extravío de tu tarjeta de circulación y <span>nosotros nos encargamos del resto, ya sea de corregir o reponer tu tarjeta según sea el caso</span>. "
+            },
+            "Renovacion": {
+                "icon": "icon",
+                "Titulo": "REFRENDO O RENOVACIÓN DE TARJETA DE CIRCULACIÓN",
+                "Descripción": "Te apoyamos a realizarlo de manera rápida y sin complicaciones, así te aseguras de seguir circulando y de poder hacer tu verificación, y es que <span>sino cumples con tu refrendo no podrás verificar tu vehículo</span>. Esta es la mejor manera de evitar multas vehiculares.<br/>Lo deben cumplir todos los propietarios de vehículo en Morelos. Un caso muy particular en este proceso es <span>cuando el propietario ya pago su refrendo, pero no tiene el tiempo de renovar su tarjeta</span>. Nosotros la renovamos por ti, de forma cómoda y segura.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Tarjeta de circulación.",
+                        "- Identificación vigente.",
+                        "- Seguro vehicular.",
+                        "- Acta de ministerio público (por robo o extravió)."
+                    ],
+                    "Adicional": true,
+                    "EnCuenta": false,
+                    "Incluye": [
+                        "- Tarjeta de circulación.",
+                        "- Recibo de pago (reexpedición de tarjeta).", 
+                        "- Asesoría y gestoría.",
+                        "- Cita de verificación (si la requieres)."                   
+                    ],
+                    "Pasos": [
+                        "- Contáctanos para asesorarte.",
+                        "- Envía tus requisitos escaneados (no fotos).",
+                        "- Paga el anticipo del 50%.",
+                        "- Te notificamos cuando tu trámite esté listo.",
+                        "- Enviamos tu trámite a domicilio."
+                    ]
+                },
+                "Disclaimer":"La principal recomendación es hacer este proceso a principios de año, durante los 2 primeros meses. <span>Es de nuestro mayor interés y responsabilidad notificar</span> a todos nuestros clientes sobre este proceso, <span>para apoyarlos a tiempo y evitar sanciones de tránsito</span>."
+            }
+        },
+
+        "Verificacion": {
+
+            "Verificacion": {
+                "icon": "icon",
+                "Titulo": "VERIFICACION",
+                "Descripción": "Uno de nuestros servicios con mayor demanda, ya que <span>el cumplimiento de la verificación es básico</span> no solo para evitar multas innecesarias sino <span>para que puedas circular por todo el territorio nacional</span> sin complicaciones. Proceso que se debe llevar a cabo 2 veces al año.<br/>Servicio <span>ideal para todos los propietarios cuyo estilo de vida</span>, <span>negocios u ocupaciones les complican gastar tiempo en este proceso</span>. Consiste en que <span>uno de nuestros choferes traslade su vehículo a Morelos para su verificación</span> con total seguridad y garantía.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Tarjeta de circulación actualizada.",
+                        "- Identificación vigente.",
+                        "- Seguro vehicular (cobertura amplia).",
+                        "- Talón de verificación anterior.",
+                        "- Factura o carta factura (vehículos nuevos).",
+                        "- Alta en Morelos (nuevos y usados de 1era vez).",
+                        "- Contrato de servicio."
+                    ],
+                    "Adicional": true,
+                    "EnCuenta": false,
+                    "Incluye": [
+                        "- Talón de verificación actualizado.",
+                        "- Recibo de pago (derechos de verificación).", 
+                        "- Asesoría y gestoría.",
+                        "- Cita de verificación."            
+                    ],
+                    "Pasos": [
+                        "- Contáctanos para asesorarte.",
+                        "- Envía tus requisitos escaneados (no fotos).",
+                        "- Paga el 100%, se resuelve el mismo día.",
+                        "- Recogemos tu auto en el lugar y hora acordada.",
+                        " - Regresamos tu auto al lugar que nos indiques."
+                    ]
+                },
+                "Disclaimer":"Nuestra responsabilidad es notificarle a tiempo sobre su verificación, y estamos comprometidos en apoyarlo totalmente para evitarle sanciones de tránsito. <span>Servicio exclusivo para vehículos ubicados en CDMX o EDOMEX dada la logística de traslado</span>."
+            }
+        }
+    },
+    "TramitesEspeciales":{
+        "Permisos":{
+            "PermisoCarga": {
+                "icon": "icon",
+                "Titulo": "PERMISO DE CARGA O PLACA DE CARGA",
+                "Descripción": "<span>Si tu giro económico o emprendimiento requiere que tu camioneta(s) cuente con placas para carga de mercancía</span>, te apoyamos a emplacar de forma sencilla incluso si tu unidad no está emplacada en Morelos, la cambiamos de estado para que goces de sus beneficios.<br/>La <span>otra modalidad</span> que tenemos para ti <span>si requieres placas para que tus unidades carguen mercancía es apoyarte con el permiso de carga de Morelos</span>. Esto aplica para camionetas o camiones que ya están emplacados en Morelos pero sin placa o permiso de carga.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Tarjeta de circulación.",
+                        "- Identificación vigente.",
+                        "- Seguro vehicular.",
+                        "- Factura origen (con XML) y refactura (si aplica).",
+                        "- Placas anteriores en físico.",
+                        "- Cédula fiscal que indique su actividad comercial."
+                    ],
+                    "Adicional": true,
+                    "EnCuenta": false,
+                    "Incluye": [
+                        "- Placas o permiso de carga (según lo solicites).",
+                        "- Tarjeta de circulación (aplica solo para placas).", 
+                        "- Engomado (aplica solo para placas).",
+                        "- Holograma (aplica solo para placas).",  
+                        "- Recibo de pago (ya sea por placa o permiso)." ,
+                        "- Asesoría y gestoría.",
+                        "- Cita de verificación (si la requieres)."     
+                    ],
+                    "Pasos": [
+                       "- Contáctanos para asesorarte.",
+                       "- Envía tus requisitos escaneados (no fotos).",
+                       "- Paga el anticipo del 50%.",
+                       "- Te notificamos cuando tu trámite esté listo.",
+                       " - Enviamos tu trámite a domicilio."
+                    ]
+                },
+                "Disclaimer":"<span>Tanto las placas como el permiso evitan que las autoridades de transito te multen</span> por llevar demasiada carga o por transitar en vías rápidas o durante horarios no permitidos."
+            },
+            "PermisoCirculacion": {
+                "icon": "icon",
+                "Titulo": "PERMISO DE CIRCULACIÓN POR 30 DÍAS",
+                "Descripción": "Una situación muy común al adquirir un vehículo, es que <span>el anterior dueño no tenía los papeles del auto o moto en orden</span>, lo cual te complicara mucho cualquier movimiento administrativo que quieras realizar con tu vehículo más los gastos extra que esto implica.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Identificación vigente.",
+                        "- Factura origen, refactura o carta factura."
+                    ],
+                    "Adicional": false,
+                    "EnCuenta": false,
+                    "Incluye": [
+                        "- Permiso de circulación (30 días naturales).",
+                        "- Asesoría y gestoría.",
+                        "- Cita de verificación (si emplacas en Morelos)."
+                    ],
+                    "Pasos": [
+                       "- Contáctanos para asesorarte.",
+                       "- Envía foto de tu identificación y factura.",
+                       "- Paga el 100%, se resuelve el mismo día.",
+                       "- Enviamos tu trámite a domicilio."
+                    ]
+                },
+                "Disclaimer": null
+            }
+        },
+        "Placas":{
+            "PlacaAntigua": {
+                "icon": "icon",
+                "Titulo": "PLACA DE AUTOMÓVIL ANTIGUO",
+                "Descripción": "Cuando eres un verdadero amante de los autos se nota y <span>una de las mejores maneras de demostrarlo es con una pieza de automovilismo antigua</span>, es decir un vehículo que tenga por lo menos 30 años de antigüedad a partir de la fecha de fabricación de la unidad.<br/><span>Te apoyamos a emplacar de forma sencilla tu vehículo como auto antiguo</span> si cumple con los requisitos necesarios. Del mismo modo <span>si tu auto no este emplacado actualmente en Morelos, lo emplacaremos en el estado con el debido proceso</span> de baja foránea y alta.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Tarjeta de circulación.",
+                        "- Identificación vigente.",
+                        "- Seguro vehicular.",
+                        "- Factura origen (con XML) y refactura (si aplica).",
+                        "- Placas anteriores en físico.",
+                        "- Vehículo con antigüedad mínima de 30 años.",
+                        "- Certificación que acredite la originalidad físico-mecánica del vehículo, expedida por un laboratorio debidamente acreditado, el IPN o la Asociación Mexicana del Automóvil Antiguo."
+                    ],
+                    "Adicional": true,
+                    "EnCuenta": false,
+                    "Incluye": [
+                        "- Placas (automóvil antiguo).",
+                        "- Tarjeta de circulación (automóvil antiguo).",
+                        "- Engomado (automóvil antiguo).",
+                        "- Holograma (automóvil antiguo).",
+                        "- Recibo de pago (alta de auto antiguo).",
+                        "- Asesoría y gestoría.",
+                        "- Cita de verificación (si la requieres)."
+                    ],
+                    "Pasos": [
+                       "- Contáctanos para asesorarte.",
+                       "- Envía tus requisitos escaneados (no fotos).",
+                       "- Paga el anticipo del 50%.",
+                       "-Te notificamos cuando tu trámite esté listo.",
+                       "- Enviamos tu trámite a domicilio."
+                    ]
+                },
+                "Disclaimer": "Son pocos los propietarios que obtienen placas antiguas, lo que las hace en un artículo exclusivo. Pero el prestigio no es el único beneficio que obtienes. Ya que estas placas también tienen beneficios económicos y de movilidad lo que las vuelve mucho más atractivas para conseguir."
+            },
+            "PlacaDiscapacitado": {
+                "icon": "icon",
+                "Titulo": "PLACAS PARA DISCAPACITADO",
+                "Descripción": "Si lamentablemente tú como propietario o alguno de tus seres queridos tienen alguna discapacidad, <span>automáticamente tienen la oportunidad de emplacar para discapacitados</span>.<br/><span>Te apoyamos con el proceso de obtención de placas para discapacitado</span>. No importa si tu auto no esta emplacado en Morelos, lo emplacaremos en el estado con el debido proceso.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Tarjeta de circulación.",
+                        "- Identificación vigente.",
+                        "- Seguro vehicular.",
+                        "- Factura origen (con XML) y refactura (si aplica).",
+                        "- Placas anteriores en físico.",
+                        "- Credencial con fotografía expedida por el (DIF); o certificado médico que especifique la discapacidad expedida por Institución Pública. (Motora, neuromotora y/o musculo esquelética).",
+                        "- <span>Acreditar el parentesco, si el propietario, no es el de la incapacidad</span>. DIF MORELOS: https://dif.morelos.gob.mx/discapacidad/credencial-nacional-para-personas-con-discapacidad"
+                    ],
+                    "Adicional": true,
+                    "EnCuenta": false,
+                    "Incluye": [
+                        "- Placas (discapacitado).",
+                       "- Tarjeta de circulación (discapacitado).",
+                       "- Engomado (discapacitado).",
+                       "- Holograma (discapacitado).",
+                       "- Recibo de pago (alta de placa de discapacitado).",
+                       "- Asesoría y gestoría.",
+                       "- Cita de verificación (si la requieres)."
+                    ],
+                    "Pasos": [
+                       "- Contáctanos para asesorarte.",
+                       "- Envía tus requisitos escaneados (no fotos).",
+                       "- Paga el anticipo del 50%.",
+                       "- Te notificamos cuando tu trámite esté listo.",
+                       "- Enviamos tu trámite a domicilio."
+                    ]
+                },
+                "Disclaimer": "Estas placas tienen beneficios económicos y de movilidad muy importantes lo que es una enorme ventaja a la hora de transportarte o de transportar a la persona con capacidades diferentes."
+            },
+            "PlacaRemolque": {
+                "icon": "icon",
+                "Titulo": "PLACA PARA REMOLQUE",
+                "Descripción": "<span>Si tu giro económico, actividades o emprendimiento requieren de un remolque para mover mercancía</span>, te apoyamos de forma totalmente segura y sencilla a emplacar tu remolque para inconvenientes con tránsito o peor aún, la confiscación de tu unidad.<br/><span>Hay propietarios que son muy hábiles para fabricar o tiene los medios para mandar hacer su propio remolque</span>, sea cual sea el caso, <span>las autoridades exigen que todo remolque que circule por el país cuente con su debida placa</span> que avale su registro estatal.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Tarjeta de circulación.",
+                        "- Identificación vigente.",
+                        "- Seguro vehicular.",
+                        "- Factura origen (con XML) y refactura (si aplica).",
+                        "- Placas anteriores en físico (en caso de existir).",
+                        "- Fotos del remolque, frente, atrás, costados y del número de serie."
+                    ],
+                    "Adicional": true,
+                    "EnCuenta": false,
+                    "Incluye": [
+                       "- Placa (de remolque, solo usa una placa).",
+                       "- Tarjeta de circulación (automóvil antiguo).",
+                       "- Engomado (automóvil antiguo).",
+                       "- Holograma (automóvil antiguo).",
+                       "- Recibo de pago (alta de auto antiguo).",
+                       "- Asesoría y gestoría."
+                    ],
+                    "Pasos": [
+                       "- Contáctanos para asesorarte.",
+                       "- Envía tus requisitos escaneados (no fotos).",
+                       "- Paga el anticipo del 50%.",
+                       "- Te notificamos cuando tu trámite esté listo.",
+                       "- Enviamos tu trámite a domicilio."
+                    ]
+                },
+                "Disclaimer": "Al igual que con otro tipo de placas de Morelos, <span>lo único que debes tener al día para poder circular tu remolque por todo el país, es el pago de refrendo anual</span>, que en el caso de remolques es más económico que el de los autos y podemos facilitarte ese proceso."
+            }
+        },
+        "Reemplacamiento":{
+            "Reemplaca": {
+                "icon": "icon",
+                "Titulo": "REEMPLACAMIENTO OBLIGATORIO (DE ACUERDO A LA NORMATIVIDAD DE MORELOS)",
+                "Descripción": "Este es el proceso menos frecuente de todos los que se hacen en Morelos, ya que únicamente <span>ocurre cuando las autoridades así lo determinan y la finalidad de este es la actualización del padrón estatal vehicular</span>. Normalmente se realiza cada 5 o 6 años.<br/><span>Es de carácter obligatorio para todo tipo de placas y lo deben cumplir todos los propietarios de vehículo en Morelos</span>, así se trate de motocicletas o remolques. La última actualización de padrón y su respectivo reemplacamiento ocurrió en el año 2019.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Tarjeta de circulación.",
+                        "- Identificación vigente.",
+                        "- Seguro vehicular.",
+                        "- Factura origen (con XML) y refactura (si aplica).",
+                        "- Placas anteriores en físico."
+                    ],
+                    "Adicional": true,
+                    "EnCuenta": false,
+                    "Incluye": [
+                       "- Placas (nuevo diseño).",
+                       "- Tarjeta de circulación (nuevo diseño).",
+                       "- Engomado (nuevo diseño).",
+                       "- Holograma (nuevo diseño).",
+                       "- Recibo de pago (reemplacamiento).",
+                       "- Asesoría y gestoría.",
+                       "- Cita de verificación."
+                    ],
+                    "Pasos": [
+                       "- Contáctanos para asesorarte.",
+                       "- Envía tus requisitos escaneados (no fotos).",
+                       "- Paga el anticipo del 50%.",
+                       "- Te notificamos cuando tu trámite esté listo.",
+                       "- Enviamos tu trámite a domicilio."
+                    ]
+                },
+                "Disclaimer": "<span>Es nuestra responsabilidad estar siempre al pendiente de esta actualización</span> para notificarle a tiempo si este proceso es requerido. <span>Cuando ocurre, es a inicios del año que Morelos lo determine</span>. Te facilitamos todo el proceso de recolección y envió de placas."
+            }
+        },
+        "Citas":{
+            "CitaVerificacion": {
+                "icon": "icon",
+                "Titulo": "CITA DE VERIFICACIÓN EN MORELOS",
+                "Descripción": "<span>En caso de que solo requieras tu cita de verificación sin la necesidad de adquirir ningún otro de nuestros servicios</span>, te apoyamos con la cita solo contáctanos y te asesoramos.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Tarjeta de circulación actualizada."
+                    ],
+                    "Adicional": false,
+                    "EnCuenta": "- Si no puedes asistir a tu cita de verificación te podemos reagendar 24 horas después.",
+                    "Incluye": [
+                        "- Cita de verificación en PDF.",
+                        "- Asesoría y gestoría."         
+                    ],
+                    "Pasos": [
+                        "- Contáctanos para asesorarte.",
+                        "- Envía foto de tu tarjeta de circulación.",
+                        "- Paga el 100%, se resuelve el mismo día.",
+                        "- Te mandamos tu cita por correo o whats."
+                    ]
+                },
+                "Disclaimer": null
+            }
+        },
+        "MultasInfo":{
+            "Multas": {
+                "icon": "icon",
+                "Titulo": "MULTA DE VERIFICACIÓN EXTEMPORÁNEA",
+                "Descripción": "<span>Si requieres pagar tu multa de verificación pero sin otro de nuestros servicios, y no cuentas con el tiempo para ir al banco</span>, te apoyamos a pagar la multa, solo contáctanos.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Tarjeta de circulación actualizada."
+                    ],
+                    "Adicional": "- Cuentas con 30 días naturales para verificar tu vehículo, después de ese tiempo la multa pierde validez y deberás pagarla de nuevo.",
+                    "Incluye": [
+                        "- Pago de multa de verificación en PDF.",
+                        "- Asesoría y gestoría."         
+                    ],
+                    "Pasos": [
+                        "- Contáctanos para asesorarte.",
+                        "- Envía foto de tu tarjeta de circulación.",
+                        "- Paga el 100%, se resuelve el mismo día.",
+                        "- Te mandamos tu cita por correo o whats."
+                    ]
+                },
+                "Disclaimer": null
+            }
+        },
+        "Holograma":{
+            "HologramaExento": {
+                "icon": "icon",
+                "Titulo": "HOLOGRAMA DE EXENTO",
+                "Descripción": "Sin duda alguna este es por mucho el mejor holograma que puede obtener un vehículo en México y nosotros te ayudamos a conseguirlo en el estado de Morelos. <span>Holograma que solo se otorga a vehículos eléctricos o híbridos</span> que sean modelo 2014 en adelante. Los beneficios de conseguir este holograma son enormes, ya que <span>circulas diario en toda la república, incluso con doble 'no circula'. Además, esta verificación tiene una vigencia de 8 años</span> a partir de la fecha de factura del auto. Te asesoramos en cada paso del servicio.",
+                "Requisitos": {
+                    "PersonaFisica": [
+                        "- Tarjeta de circulación (original y copia).",
+                        "- Identificación vigente.",
+                        "- Seguro vehicular.",
+                        "- Factura origen (con XML) que indique que el auto es eléctrico/hibrido.",
+                        "- Formato de solicitud (nosotros te lo proporcionamos).",
+                        "- Constancia de mantenimiento (si el auto no es nuevo).",
+                        "- Comprobante del alta en Morelos."
+                    ],
+                    "Adicional": true,
+                    "EnCuenta": "- Es un trámite presencial, tú o alguien más debe llevar el auto a Morelos ya que el holograma se pega en la Secretaría de Desarrollo Sustentable.",
+                    "Incluye": [
+                        "- Holograma de verificación tipo E (Exento).",
+                        "- Certificado de verificación.",
+                        "- Traslado de auto a Morelos (si así lo prefieres).",
+                        "- Asesoría y gestoría."         
+                    ],
+                    "Pasos": [
+                        "- Contáctanos para asesorarte.",
+                        "- Envía tus requisitos escaneados (no fotos).",
+                        "- Paga el anticipo del 50%.",
+                        "- Te notificamos cuando el proceso está listo.",
+                        "- Llevar tu auto a Morelos para pegar el holograma."
+                    ]
+                },
+                "Disclaimer": "<span>Servicio obligatoriamente presencial</span>, debido a que así lo determina la Secretaría de Desarrollo Sustentable del estado de Morelos, pero si así lo decides, <span>nosotros podemos trasladar tu auto y regresarlo a tu domicilio el mismo día que obtiene el holograma</span>."
+            }
+        }
+    }
+}

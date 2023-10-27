@@ -1,0 +1,7 @@
+.bullet{
+    width: 16%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 3px solid var(--mainAccent);
+    margin: 4px;
+}

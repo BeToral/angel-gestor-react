@@ -1,0 +1,61 @@
+#nav-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0%;
+    padding: 2%;
+    box-sizing: border-box;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, .5);
+    backdrop-filter: blur(6px);
+  }
+
+  #nav-wrapper>svg{
+    width: 5%;
+  }
+
+.mobile-nav{
+width: 5%;
+}
+
+.burger{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.burger>div{
+    width: 100%;
+    height: 4px;
+    background-color: var(--mainAccent);
+    margin-bottom: 4px;
+}
+
+.burger>div:nth-last-child(1){
+    margin-bottom: 0px;
+}
+
+.navBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navBar div{
+  margin:  0px 32px;
+}
+
+.navBar p{
+  color: var(--gray);
+  font-family: "MontseSemi";
+  cursor: pointer;
+}
+
+.navBar p:hover{
+  color: var(--mainAccent);
+}

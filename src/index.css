@@ -1,0 +1,71 @@
+@font-face{
+  font-family: "MontseLight";
+  src: url("./assets/fonts/Montserrat-Light.ttf");
+}
+
+@font-face{
+  font-family: "MontseMedium";
+  src: url("./assets/fonts/Montserrat-Medium.ttf");
+}
+
+@font-face{
+  font-family: "MontseSemi";
+  src: url("./assets/fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face{
+  font-family: "MontseBold";
+  src: url("./assets/fonts/Montserrat-Bold.ttf");
+}
+
+
+
+
+
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main);
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 0;
+  font-weight: 400;
+
+  color-scheme: light;
+
+  color: #242424;
+
+  --main: #FFFFFF;
+  --sub: #F4F3F5;
+  --mainAccent: #8EA7E9;
+  --subAccent: #7286D3;
+  --gray: #afafaf;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #FFFFFF;
+
+    --main: #242424;
+    --sub: #0e0e0e;
+  }
+}
+
+#root{
+  width: 100%;
+}
+
