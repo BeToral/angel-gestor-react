@@ -9,8 +9,9 @@
     padding: 1.5%;
     box-sizing: border-box;
     z-index: 1;
-    background-color: rgba(255, 255, 255, .5);
-    backdrop-filter: blur(6px);
+    background: rgb(255,255,255);
+    background: linear-gradient(190deg, rgba(255,255,255,1) 40%, rgba(255,255,255,0) 100%);
+    /* backdrop-filter: blur(6px); */
   }
 
   #nav-wrapper>svg{
