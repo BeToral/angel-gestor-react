@@ -5,13 +5,13 @@ const Asesoria = ({txt}) => {
   return (
     <div className='asesoria-wrapper'>
       <div className='asesoria-subwrapper'>
-        <div className='title'><p>{txt.Asesoria[0]}</p></div>
-        <div className='subtitle'><p>{txt.Asesoria[1]}</p></div>
+        <div className='title'><p>{txt[0]}</p></div>
+        <div className='subtitle'><p>{txt[1]}</p></div>
         <div className='inputCont'>
-            <input id='aseso-name' placeholder={txt.Asesoria[2]}></input>
-            <input id='aseso-phone' placeholder={txt.Asesoria[3]}></input>
+            <input id='aseso-name' placeholder={txt[2]}></input>
+            <input id='aseso-phone' placeholder={txt[3]}></input>
         </div>
-        <div className='btnCont'><p>{txt.Asesoria[4]}</p></div>
+        <div className='btnCont'><p>{txt[4]}</p></div>
       </div>
     </div>
   )

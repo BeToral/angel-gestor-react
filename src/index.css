@@ -29,12 +29,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--main);
+  background-color: white;
+}
+
+p{
+  display: inline-block;
 }
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 0;
   font-weight: 400;
 
   color-scheme: light;

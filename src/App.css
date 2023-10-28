@@ -7,3 +7,15 @@
   flex-direction: column;
 }
 
+#us{
+  width: 100%;
+  background-image: url("./assets/img/nosotros/background.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8%;
+}

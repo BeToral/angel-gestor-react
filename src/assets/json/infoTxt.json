@@ -18,6 +18,27 @@
         "TELEFONO",
         "PONTE EN CONTACTO"
     ],
+    "Nosotros": [
+        "QUIENES SOMOS",
+        "Somos ADAG Morelos, empresa fundada en Ciudad de México con la misión de responder eficientemente a las necesidades de gestoría de Morelos de los habitantes del centro del país y de brindar los servicios y soluciones más rápidas a de nuestros clientes, de manera responsable.",
+        "Iniciamos este emprendimiento en 2019 con el objetivo de ahorrarles a propietarios de vehículos de Morelos el valioso tiempo invertido en sus trámites al tener que ir a realizarlos a esa entidad.",
+        "Cada actividad de nuestra empresa está enfocada en la entera satisfacción de cada cliente, ya que contamos con el mejor equipo de expertos en el rubro, lo que garantiza la realización de los servicios que usted o su organización necesita, al mejor precio y en el menor tiempo posible."
+    ],
+    "Porque":{
+        "title":"POR QUÉ CON NOSOTROS",
+        "disclaimer": "Cuentas con la mejor asesoría gratuita 24/7 al alcance de un clic a nuestro whatsApp o correo.",
+        "values":[
+            "EL MEJOR PRECIO DEL MERCADO. La mejor asesoría y servicio al mejor precio",
+
+            "La agilidad con la que trabajamos, nos permite realizar tu trámite en 3 días hábiles o menos dependiendo del trámite, pero ciertos servicios se resuelven el mismo día o al día siguiente.",
+
+            "Tienes la ventaja de realizar tu trámite con nosotros desde cualquier punto de la república, ya que nos puedes mandar tus documentos por whatsapp o correo electrónico, agilizando así la gestión de tu trámite para que sigas realizando tus actividades cotidianas con total tranquilidad.",
+
+            "ENVIAMOS A DOMICILIO. No pierdas tiempo, entregamos tu trámite en el domicilio que nos indiques.",
+
+            "LIQUIDAS CONTRA ENTREGA. Inicias tu tramite con el 50% de anticipo y liquidas el resto al recibir tus documentos."
+        ]
+    },
     "Factura": "*Si requieres factura, podemos facturar nuestros servicios.",
     "Adicional": ["- Acta Constitutiva.", "- RFC."],
     "Tramites": {

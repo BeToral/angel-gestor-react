@@ -19,10 +19,12 @@ function App() {
 
       <Nav />
       <Hero />
-      <Asesoria txt={AppTxt}/>
+      <Asesoria txt={AppTxt.Asesoria}/>
       <Tramites />
-      <QuienesSomos />
-      <PorQueNosotros />
+      <div id='us'>
+        <QuienesSomos txt={AppTxt.Nosotros}/>
+        <PorQueNosotros txt={AppTxt.Porque}/>
+      </div>
       <Contacto />
 
     </div>

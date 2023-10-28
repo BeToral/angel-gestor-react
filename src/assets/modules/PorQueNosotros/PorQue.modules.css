@@ -1,0 +1,107 @@
+.porque-wrapper{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0px;
+}
+
+.porque-title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.porque-title>p{
+    font-family: "MontseBold";
+    color: var(--mainAccent);
+    font-size: 2vw;
+}
+
+.values{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+.valueIcon{
+    width: 12%;
+    border: solid 7px #a5a5a5;
+    border-radius: 50%;
+    padding: 2%;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    margin: 8px;
+}
+
+.valueIcon>div{
+    width: 18%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: var(--mainAccent);
+    position: absolute;
+    visibility: hidden;
+    bottom: -45%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.valueIcon>svg{
+    width: 100%;
+    fill: #a5a5a5;
+}
+
+.selected{
+    border: solid 14px var(--mainAccent);
+}
+
+.selected>div{
+    visibility: visible;
+}
+
+.selected>svg{
+    fill: var(--mainAccent);
+}
+
+.values-txt{
+    width: 100%;
+    text-align: center;
+}
+
+.values-txt>p{
+    
+    color: var(--subAccent);
+    font-size: 1.2vw;
+    font-family: "MontseSemi";
+}
+
+.disclaimer{
+    width: 100%;
+    text-align: center;
+    background-color: var(--subAccent);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.disclaimer>div{
+    width: 4%;
+    aspect-ratio: 1/1;
+    transform: rotateZ(45deg);
+    position: absolute;
+    top: -20%;
+    background-color: var(--subAccent);
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.disclaimer>p{
+    width: 70%;
+    font-size: 1.2vw;
+    font-family: "MontseBold";
+}
