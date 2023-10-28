@@ -1,0 +1,24 @@
+.footer-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: .5%;
+    box-sizing: border-box;
+    background-color: var(--subAccent);
+}
+
+.footer-cont{
+    width: 50%;
+    text-align: center;
+}
+
+.footer-cont>p{
+    font-size: .8vw;
+    font-family: "MontseItalicMedium";
+}
+
+.footer-cont>p>span{
+    font-family: "MontseItalicBold";
+    margin-right: 4px;
+}
+

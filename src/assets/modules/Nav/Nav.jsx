@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { Isotipo } from '../../icons/Logos'
+import { Isotipo, Isologo } from '../../icons/Logos'
 import styles from './Nav.modules.css'
 
 const Nav = () => {
@@ -27,7 +27,7 @@ const Nav = () => {
 
     <div id='nav-wrapper'>
 
-      <Isotipo fill={'var(--mainAccent)'}/>
+      <Isologo />
 
       {isMobile ?(
          // Render mobile navigation (hamburger menu)

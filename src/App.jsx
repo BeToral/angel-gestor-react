@@ -9,6 +9,7 @@ import Tramites from './assets/modules/Tramites'
 import QuienesSomos from './assets/modules/QuienesSomos'
 import PorQueNosotros from './assets/modules/PorQueNosotros'
 import Contacto from './assets/modules/Contacto'
+import Footer from './assets/modules/Footer/Footer'
 import AppTxt from './assets/json/infoTxt.json'
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <PorQueNosotros txt={AppTxt.Porque}/>
       </div>
       <Contacto />
+      <Footer />
 
     </div>
   )

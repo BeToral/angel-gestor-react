@@ -18,6 +18,16 @@
   src: url("./assets/fonts/Montserrat-Bold.ttf");
 }
 
+@font-face{
+  font-family: "MontseItalicBold";
+  src: url("./assets/fonts/Montserrat-BoldItalic.ttf");
+}
+
+@font-face{
+  font-family: "MontseItalicMedium";
+  src: url("./assets/fonts/Montserrat-MediumItalic.ttf");
+}
+
 
 
 
