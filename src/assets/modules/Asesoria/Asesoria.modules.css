@@ -8,7 +8,7 @@
 }
 
 .asesoria-subwrapper{
-    width: 45%;
+    width: 35%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -21,14 +21,14 @@
 .title>p{
     font-family: "MontseBold";
     color: var(--mainAccent);
-    font-size: 2vw;
+    font-size: 1.4vw;
     text-transform: uppercase;
 }
 
 .subtitle>p{
     font-family: "MontseSemi";
     color: var(--subAccent);
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 
 .inputCont{
@@ -47,7 +47,7 @@
     box-sizing: border-box;
     border-radius: 8px;
     color: rgb(107, 107, 107);
-    font-size: 1.2vw;
+    font-size: .8vw;
     font-family: "MontseBold";
     text-align: center;
 }
@@ -72,10 +72,107 @@
 }
 
 .btnCont>p{
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-family: "MontseBold";
+    margin: 10px;
 }
 
 .btnCont:hover{
     background-color: #4d5ea3;
 }
+
+
+/* Extra Large Devices (Large Desktops): */
+
+@media (min-width: 1201px) { 
+
+    
+}
+
+/* Large Devices (Desktops): */
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+    
+
+}
+
+/* Medium Devices (Laptops): */
+
+@media (min-width: 769px) and (max-width: 992px) { 
+
+    .asesoria-subwrapper{
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .title>p {
+        font-size: 2vw;
+    }
+
+    .subtitle>p {
+        font-size: 2vw;
+        margin: 8px;
+    }
+
+    .btnCont>p {
+        font-size: 1.6vw;
+    }
+}
+
+/* Small Devices (Tablets): */
+
+@media (min-width: 577px) and (max-width: 768px) { 
+
+    .asesoria-subwrapper {
+        width: 60%;
+    }
+
+    .title>p {
+        font-size: 2.2vw;
+    }
+
+    .subtitle>p {
+        font-size: 2vw;
+        margin: 0px;
+    }
+
+    .inputCont>input {
+        font-size: 1.5vw;
+    }
+
+    .btnCont>p {
+        font-size: 1.8vw;
+    }
+
+ }
+
+
+ /* Extra Small Devices (Phones): */
+
+@media (max-width: 576px) { 
+
+    .asesoria-subwrapper {
+        width: 90%;
+    }
+
+    .title>p {
+        font-size: 4vw;
+    }
+
+    .subtitle>p {
+        font-size: 3.5vw;
+        margin: 0;
+    }
+
+    .inputCont>input {
+        font-size: 2.4vw;
+    }
+
+    .btnCont>p {
+        font-size: 3.2vw;
+        margin: 8px;
+    }
+
+ }
+

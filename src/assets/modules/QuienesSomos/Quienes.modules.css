@@ -17,7 +17,7 @@
 .nosotros-title>p{
     font-family: "MontseBold";
     color: var(--mainAccent);
-    font-size: 2vw;
+    font-size: 1.4vw;
 }
 
 .nosotros-txt{
@@ -28,7 +28,89 @@
 .nosotros-txt>p{
     color: #242424;
     font-family: "MontseSemi";
-    font-size: 1.2vw;
+    font-size: .9vw;
     margin-bottom: 8px;
 }
+
+/* Extra Large Devices (Large Desktops): */
+
+@media (min-width: 1201px) { 
+
+    
+}
+
+/* Large Devices (Desktops): */
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+    
+    .nosotros-wrapper {
+        width: 60%;
+    }
+
+    .nosotros-txt>p {
+        font-size: 1.3vw;
+    }
+
+}
+
+/* Medium Devices (Laptops): */
+
+@media (min-width: 769px) and (max-width: 992px) { 
+
+    .nosotros-wrapper{
+        width: 70%;
+    }
+
+    .nosotros-title>p {
+        font-size: 2vw;
+    }
+
+    .nosotros-txt>p {
+        font-size: 1.8vw;
+        margin-bottom: 8px;
+    }
+
+}
+
+/* Small Devices (Tablets): */
+
+@media (min-width: 577px) and (max-width: 768px) { 
+
+    .nosotros-wrapper{
+        width: 70%;
+    }
+
+
+    .nosotros-title>p {
+        font-size: 2.2vw;
+    }
+
+    .nosotros-txt>p {
+        font-size: 1.8vw;
+        margin-bottom: 8px;
+    }
+
+
+ }
+
+
+ /* Extra Small Devices (Phones): */
+
+@media (max-width: 576px) { 
+
+    .nosotros-wrapper{
+        width: 90%;
+    }
+
+    .nosotros-title>p {
+        font-size: 4vw;
+    }
+
+    .nosotros-txt>p {
+        font-size: 3vw;
+        margin-bottom: 0px;
+    }
+
+ }
+
 

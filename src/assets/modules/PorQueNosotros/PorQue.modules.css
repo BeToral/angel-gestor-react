@@ -14,26 +14,34 @@
 .porque-title>p{
     font-family: "MontseBold";
     color: var(--mainAccent);
-    font-size: 2vw;
+    font-size: 1.4vw;
+}
+
+.values-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .values{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: flex-start;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
 }
 
 .valueIcon{
-    width: 12%;
-    border: solid 7px #a5a5a5;
+    width: 5%;
+    aspect-ratio: 1/1;
+    border: solid 6px #a5a5a5;
     border-radius: 50%;
-    padding: 2%;
-    box-sizing: border-box;
     cursor: pointer;
     position: relative;
     margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .valueIcon>div{
@@ -50,12 +58,14 @@
 }
 
 .valueIcon>svg{
-    width: 100%;
+    width: 80%;
     fill: #a5a5a5;
+    aspect-ratio: 1/1;
+    position: absolute;
 }
 
 .selected{
-    border: solid 14px var(--mainAccent);
+    border: solid 10px var(--mainAccent);
 }
 
 .selected>div{
@@ -67,41 +77,165 @@
 }
 
 .values-txt{
-    width: 100%;
+    width: 70%;
     text-align: center;
 }
 
 .values-txt>p{
     
     color: var(--subAccent);
-    font-size: 1.2vw;
+    font-size: .9vw;
     font-family: "MontseSemi";
 }
 
 .disclaimer{
-    width: 100%;
+    width: auto;
     text-align: center;
-    background-color: var(--subAccent);
-    border-radius: 10px;
     position: relative;
+    margin-top: 24px;
     display: flex;
     justify-content: center;
-    margin-top: 24px;
 }
 
-.disclaimer>div{
+
+.disclaimer>p{
+    width: 50%;
+    background-color: var(--subAccent);
+    padding: 24px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 1vw;
+    font-family: "MontseBold";
+}
+
+.disclaimer>p>div{
     width: 4%;
     aspect-ratio: 1/1;
     transform: rotateZ(45deg);
     position: absolute;
-    top: -20%;
+    top: -5%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
     background-color: var(--subAccent);
     border-radius: 8px;
     z-index: -1;
 }
+/* Extra Large Devices (Large Desktops): */
 
-.disclaimer>p{
-    width: 70%;
-    font-size: 1.2vw;
-    font-family: "MontseBold";
+@media (min-width: 1201px) { 
+
+    
 }
+
+/* Large Devices (Desktops): */
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+    
+
+}
+
+/* Medium Devices (Laptops): */
+
+@media (min-width: 769px) and (max-width: 992px) { 
+
+    .porque-wrapper{
+        width: 90%;
+    }
+
+
+    .porque-title>p{
+        font-size: 2vw;
+    }
+
+    .values-txt>p {
+        font-size: 1.8vw;
+    }
+
+    .disclaimer>p{
+        width: 90%;
+        font-size: 1.8vw;
+    }
+
+    .disclaimer>p>div{
+        top: 6%;
+    }
+
+
+}
+
+/* Small Devices (Tablets): */
+
+@media (min-width: 577px) and (max-width: 768px) { 
+
+    .porque-wrapper{
+        width: 90%;
+    }
+
+    .porque-title>p{
+        font-size: 2.2vw;
+    }
+
+    .values-txt>p {
+        font-size: 2.4vw;
+    }
+
+    .valueIcon{
+        width: 10%;
+        border: solid 2px #a5a5a5;
+    }
+
+    .selected{
+        border: solid 4px var(--mainAccent);
+    }
+
+    .disclaimer>p{
+        width: 95%;
+        padding: 12px;
+        font-size: 2.5vw;
+    }
+
+    .disclaimer>p>div{
+        border-radius: 4px;
+        top: 6%;
+    }
+ }
+
+
+ /* Extra Small Devices (Phones): */
+
+@media (max-width: 576px) { 
+
+    .porque-wrapper{
+        width: 90%;
+    }
+
+    .porque-title>p{
+        font-size: 4vw;
+    }
+
+    .valueIcon{
+        width: 10%;
+        border: solid 2px #a5a5a5;
+    }
+
+    .selected{
+        border: solid 4px var(--mainAccent);
+    }
+
+    .values-txt>p {
+        font-size: 3vw;
+    }
+
+    .disclaimer>p{
+        width: 95%;
+        padding: 12px;
+        font-size: 3.8vw;
+    }
+
+    .disclaimer>p>div{
+        border-radius: 2px;
+        top: 6%;
+    }
+
+ }

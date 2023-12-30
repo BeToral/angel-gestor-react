@@ -25,3 +25,53 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+/* Extra Large Devices (Large Desktops): */
+
+@media (min-width: 1201px) { 
+
+    
+}
+
+/* Large Devices (Desktops): */
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+    
+
+
+}
+
+/* Medium Devices (Laptops): */
+
+@media (min-width: 769px) and (max-width: 992px) { 
+
+
+    #bullet-wrapper{
+        width: 10%;
+    }
+}
+
+/* Small Devices (Tablets): */
+
+@media (min-width: 577px) and (max-width: 768px) { 
+
+
+    #bullet-wrapper{
+        width: 10%;
+    }
+ }
+
+
+ /* Extra Small Devices (Phones): */
+
+@media (max-width: 576px) { 
+
+    #hero-wrapper {
+        height: 50%;
+    }
+
+    #bullet-wrapper{
+        width: 20%;
+    }
+
+ }

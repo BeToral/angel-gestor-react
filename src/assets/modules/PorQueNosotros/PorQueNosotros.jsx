@@ -44,8 +44,8 @@ const PorQueNosotros = ({txt}) => {
       </div>
 
       <div className='disclaimer'>
-        <div></div>
-        <p>{txt.disclaimer}</p>
+        
+        <p>{txt.disclaimer}<div></div></p>
       </div>
 
     </div>

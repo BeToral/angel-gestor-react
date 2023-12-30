@@ -22,3 +22,48 @@
     margin-right: 4px;
 }
 
+/* Extra Large Devices (Large Desktops): */
+
+@media (min-width: 1201px) { 
+
+    
+}
+
+/* Large Devices (Desktops): */
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+    
+
+}
+
+/* Medium Devices (Laptops): */
+
+@media (min-width: 769px) and (max-width: 992px) { 
+
+    .footer-cont>p{
+        font-size: 1.2vw;
+    }
+
+}
+
+/* Small Devices (Tablets): */
+
+@media (min-width: 577px) and (max-width: 768px) { 
+
+
+    .footer-cont>p{
+        font-size: 2vw;
+    }
+ }
+
+
+ /* Extra Small Devices (Phones): */
+
+@media (max-width: 576px) { 
+
+    .footer-cont>p{
+        font-size: 3vw;
+    }
+ }
+
+

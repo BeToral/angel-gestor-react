@@ -25,11 +25,62 @@
 .contacto>p{
     color: #242424;
     font-family: "MontseSemi";
-    font-size: 1.2vw;
+    font-size: .8vw;
     margin: unset;
+    text-align: center;
 }
 
 .contacto>p>span{
     font-family: "MontseBold";
     color: var(--subAccent);
 }
+
+/* Extra Large Devices (Large Desktops): */
+
+@media (min-width: 1201px) { 
+
+    
+}
+
+/* Large Devices (Desktops): */
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+    
+    .contacto>p{
+        font-size: 1.4vw;
+    }
+}
+
+/* Medium Devices (Laptops): */
+
+@media (min-width: 769px) and (max-width: 992px) { 
+
+    .contacto>p{
+        font-size: 1.8vw;
+    }
+}
+
+/* Small Devices (Tablets): */
+
+@media (min-width: 577px) and (max-width: 768px) { 
+
+    .contacto>p{
+        font-size: 1.8vw;
+    }
+
+ }
+
+
+ /* Extra Small Devices (Phones): */
+
+@media (max-width: 576px) { 
+
+    .contacto-wrapper {
+        width: 100%;
+    }
+
+    .contacto>p{
+        font-size: 3vw;
+    }
+
+ }

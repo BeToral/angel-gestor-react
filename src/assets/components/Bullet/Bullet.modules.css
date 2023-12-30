@@ -1,7 +1,49 @@
 .bullet{
-    width: 16%;
+    width: 12%;
     aspect-ratio: 1/1;
     border-radius: 50%;
     border: 3px solid var(--mainAccent);
     margin: 4px;
 }
+
+/* Extra Large Devices (Large Desktops): */
+
+@media (min-width: 1201px) { 
+
+    
+}
+
+/* Large Devices (Desktops): */
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+    
+
+}
+
+/* Medium Devices (Laptops): */
+
+@media (min-width: 769px) and (max-width: 992px) { 
+
+
+    .bullet{
+        width: 10%;
+    }
+}
+
+/* Small Devices (Tablets): */
+
+@media (min-width: 577px) and (max-width: 768px) { 
+
+
+ }
+
+
+ /* Extra Small Devices (Phones): */
+
+@media (max-width: 576px) { 
+
+    .bullet{
+        width: 10%;
+    }
+
+ }
