@@ -56,9 +56,9 @@
 }
 
 
-@media (min-width: 769px) and (orientation: landscape){
+@media (max-width: 845px) and (orientation: landscape){
     #hero-wrapper{
-        height: 120vh;
+        height: 110vh;
     }
     .icon{
         display: none;
