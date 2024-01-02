@@ -1,15 +1,12 @@
-import React from 'react'
-import styles from './Bullet.modules.css'
+import React from 'react';
+import styles from './Bullet.modules.css';
 
-const Bullet = (active) => {
+const Bullet = ({ active }) => {
   return (
-    <div className='bullet'>
-        {
-            active&&(
-            <div className='mini-bullet'></div>
-        )}
+    <div className={`bullet ${active ? 'active' : ''}`}>
+      <div className='mini-bullet'></div>
     </div>
-  )
-}
+  );
+};
 
-export default Bullet
+export default Bullet;

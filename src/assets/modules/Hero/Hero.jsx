@@ -34,10 +34,21 @@ const Hero=()=> {
 
   })
 
+  const [counter, setCounter] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCounter((prevCounter) => (prevCounter + 1) % Object.keys(slide).length);
+    }, 8000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div id='hero-wrapper'>
 
-      <div id='hero-subwrapper'>
+      <div id='hero-subwrapper' 
+      style={{ '--slide-translate': `calc(-${counter * (100 / Object.keys(slide).length)}%)` }}>
 
         {Object.values(slide).map((slideData) => (
           <Slide
@@ -52,13 +63,13 @@ const Hero=()=> {
       </div>
 
 
+      // Inside the rendering of Bullet components in the Hero component
       <div id='bullet-wrapper'>
-        
-          {Object.values(slide).map(() => (
-            <Bullet />
-          ))}
-        
+        {Object.values(slide).map((slideData, index) => (
+          <Bullet key={index} active={index === counter} />
+        ))}
       </div>
+
       
     </div>
   )

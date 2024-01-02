@@ -4,7 +4,23 @@
     border-radius: 50%;
     border: 3px solid var(--mainAccent);
     margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.mini-bullet{
+    width: 80%;
+    aspect-ratio: 1/1;
+    background-color: var(--mainAccent);
+    border-radius: 50%;
+    visibility: hidden;
+    
+}
+
+.bullet.active .mini-bullet {
+    visibility: visible;
+  }
 
 /* Extra Large Devices (Large Desktops): */
 

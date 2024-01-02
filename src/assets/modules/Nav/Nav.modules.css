@@ -8,25 +8,41 @@
     top: 0%;
     padding: 1.5%;
     box-sizing: border-box;
-    z-index: 1;
+    z-index: 3;
     background: rgb(255,255,255);
     background: linear-gradient(190deg, rgba(255,255,255,1) 40%, rgba(255,255,255,0) 100%);
     /* backdrop-filter: blur(6px); */
   }
 
-  #nav-wrapper>svg{
-    width: 9%;
+  .isologo{
+    width: 7%;
   }
 
-.mobile-nav{
-width: 5%;
-}
+  .isologo>svg{
+    width: 100%;
+  }
+
+  .mobile-nav{
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .mobile-nav>a{
+    width: 50%;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 .burger{
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
 }
 
 .burger>div{
@@ -34,10 +50,28 @@ width: 5%;
     height: 4px;
     background-color: var(--mainAccent);
     margin-bottom: 4px;
+    transition: .5s ease-in-out;
 }
 
 .burger>div:nth-last-child(1){
     margin-bottom: 0px;
+}
+.burger-open>div{
+  position: absolute;
+}
+
+.burger-open>div:nth-child(1){
+  transform: rotate(45deg);
+  left: 0%;
+}
+
+.burger-open>div:nth-child(2){
+  display: none;
+}
+
+.burger-open>div:nth-child(3){
+  transform: rotate(-45deg);
+  right: 0%;
 }
 
 .navBar{
@@ -72,19 +106,37 @@ width: 5%;
 
 @media (min-width: 993px) and (max-width: 1200px) { 
     
+  .isologo{
+    width: 9%;
+  }
 
 }
 
 /* Medium Devices (Laptops): */
 
 @media (min-width: 769px) and (max-width: 992px) { 
-
-
+  
+  .isologo{
+    width: 9%;
+  }
+  .navBar p{
+    font-size: 1.4vw;
+  }
+  
 }
 
 /* Small Devices (Tablets): */
 
 @media (min-width: 577px) and (max-width: 768px) { 
+
+
+  .isologo{
+    width: 12%;
+  }
+
+  .mobile-nav{
+    width: 10%;
+    }
 
 
  }
@@ -94,5 +146,13 @@ width: 5%;
 
 @media (max-width: 576px) { 
 
+
+  .isologo{
+    width: 24%;
+  }
+
+  .mobile-nav{
+    width: 20%;
+    }
 
  }

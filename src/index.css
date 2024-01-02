@@ -82,3 +82,7 @@ p{
   width: 100%;
 }
 
+@media (min-width: 769px) and (orientation: landscape){
+ 
+}
+

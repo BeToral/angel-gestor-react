@@ -18,7 +18,7 @@ const Slide = ({ message, icon,  wasa, image, bg }) => {
         {
           wasa && (
             <a href="https://api.whatsapp.com/send?phone=525527079944" target="_blank">
-              <div className="wasa"><WhatsApp/><p>{ wasa }</p></div>
+              <div className="wasa"><WhatsApp fill={"white"}/><p>{ wasa }</p></div>
             </a>
           )}
       </div>

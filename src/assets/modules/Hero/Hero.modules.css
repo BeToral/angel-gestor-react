@@ -11,6 +11,8 @@
     height: 100%;
     display: flex;
     flex-wrap: wrap;
+    transition: transform 0.5s ease;
+    transform: translateX(var(--slide-translate, 0%));
 }
 
 #bullet-wrapper{
@@ -37,7 +39,9 @@
 
 @media (min-width: 993px) and (max-width: 1200px) { 
     
-
+    #hero-wrapper {
+        height: 75vh;
+    }
 
 }
 
@@ -51,9 +55,24 @@
     }
 }
 
+
+@media (min-width: 769px) and (orientation: landscape){
+    #hero-wrapper{
+        height: 120vh;
+    }
+    .icon{
+        display: none;
+    }
+}
+
 /* Small Devices (Tablets): */
 
 @media (min-width: 577px) and (max-width: 768px) { 
+
+    
+    #hero-wrapper {
+        height: 90vh;
+    }
 
 
     #bullet-wrapper{

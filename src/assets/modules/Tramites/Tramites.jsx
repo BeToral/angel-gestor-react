@@ -3,7 +3,7 @@ import styles from './Tramites.modules.css'
 
 const Tramites = () => {
   return (
-    <div className='tramites-wrapper'>Tramites</div>
+    <div id="tramites-wrapper" className='tramites-wrapper'>Tramites</div>
   )
 }
 

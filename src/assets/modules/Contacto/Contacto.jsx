@@ -5,7 +5,7 @@ import { MiniMap, MiniCalendar, MiniWhats, MiniMail } from '../../icons/Icons'
 const Contacto = () => {
   return (
 
-    <div className='contacto-wrapper'>
+    <div id="contacto-wrapper" className='contacto-wrapper'>
 
       <div className='title'><p>CONTACTO</p></div>
 
