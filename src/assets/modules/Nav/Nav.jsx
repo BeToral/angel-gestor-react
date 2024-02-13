@@ -47,7 +47,7 @@ const Nav = ({ isMobileMenuOpen, setIsMobileMenuOpen, toggleMobileMenu }) => {
         <div id='mobile-nav' className="mobile-nav" 
         onClick={() =>{ setIsMobileMenuOpen(!isMobileMenuOpen); toggleMobileMenu();}}>
          
-         <a href="https://api.whatsapp.com/send?phone=525527079944" target="_blank">
+         <a id="wasa-mob" href="https://api.whatsapp.com/send?phone=525527079944" target="_blank">
               <WhatsApp fill={"#8EA7E9"}/>
           </a>
 
