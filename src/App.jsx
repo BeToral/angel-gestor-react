@@ -7,6 +7,7 @@ import MenuMobile from './assets/modules/MenuMobile'
 import Hero from './assets/modules/Hero'
 import Asesoria from './assets/modules/Asesoria'
 import Tramites from './assets/modules/Tramites'
+import TramitesEspeciales from './assets/modules/Tramites/TramitesEspeciales'
 import QuienesSomos from './assets/modules/QuienesSomos'
 import PorQueNosotros from './assets/modules/PorQueNosotros'
 import Contacto from './assets/modules/Contacto'
@@ -33,6 +34,7 @@ function App() {
       <Hero />
       <Asesoria txt={AppTxt.Asesoria}/>
       <Tramites />
+      <TramitesEspeciales />
       <div id='us'>
         <QuienesSomos txt={AppTxt.Nosotros}/>
         <PorQueNosotros txt={AppTxt.Porque}/>

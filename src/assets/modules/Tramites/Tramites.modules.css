@@ -1,7 +1,7 @@
-.tramites-wrapper{
+.tramites-wrapper, .tramites-esp-wrapper{
     width: 100%;
     height: auto;
-    padding: 12px;
+    padding: 32px 12px;
     box-sizing: border-box;
     background-color: #dbdbdb;
     display: flex;
@@ -10,29 +10,30 @@
     flex-direction: column;
 }
 
-.tramites-list{
+.tramites-list, .tramites-esp-list{
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 12px;
 }
 
-.tramites-list>div{
+.tramites-list>div, .tramites-esp-list>div{
     cursor: pointer;
     margin: 0px 12px
 }
 
-.tramites-list>div>p{
-    color: #A8A8A8;
+.tramites-list>div>p, .tramites-esp-list>div>p{
+    color: #818181;
 }
 
-.tramites-list>.selected-tramite>p{
+.tramites-list>.selected-tramite>p, .tramites-esp-list>.selected-tramite>p{
     color: #7286D3;
     text-decoration: underline 2px solid #7286D3;
 }
 
-.tramites-cont{
+.tramites-cont, .tramites-esp-cont{
     width: 80%;
     display: flex;
     justify-content: flex-start;
@@ -42,7 +43,7 @@
     box-sizing: border-box;
 }
 
-.tramites-icon{
+.tramites-icon, .tramites-esp-icon{
     width: 14%;
     aspect-ratio: 1/1;
     display: flex;
@@ -51,11 +52,12 @@
     align-items: center;
 }
 
-.tramites-icon>svg{
+.tramites-icon>svg, .tramites-esp-icon>svg{
     width: 50%;
 }
 
-.tramites-icon>p{
+.tramites-icon>p, .tramites-esp-icon>p{
+    width: 100%;
     text-align: center;
     font-family: "MontseBold";
     font-size: .8em;
@@ -65,7 +67,9 @@
 .subtramite{
     width: 18%;
     aspect-ratio: 1/1;
-    background-color: #1f2332;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 2%;
     box-sizing: border-box;
     display: flex;
@@ -86,7 +90,7 @@
     text-align: center;
 }
 
-.tramites-detail{
+.tramites-detail, .tramites-esp-detail{
     width: 80%;
     background-color: #7286D3;
     display: flex;
@@ -94,6 +98,8 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    box-sizing: border-box;
+    padding-bottom: 12px;
 }
 
 .tramite-header{
@@ -109,6 +115,7 @@
     position: relative;
     justify-content: center;
     align-items: flex-start;
+    backdrop-filter: blur(6px);
 }
 
 .tramite-header-primary{
@@ -133,6 +140,7 @@
 .tramite-icon>p{
     font-family: "MontseBold";
     font-size: .8em;
+    text-align: center;
 }
 
 .tramite-header-secondary{
@@ -145,17 +153,56 @@
     box-sizing: border-box;
 }
 
+.tramite-titulo{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
 .tramite-titulo>h2{
     font-size: 1.2em;
+}
+
+.tramite-titulo>h2>span{
+    color: #8bbff3;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .tramite-lists-container{
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     padding: 2%;
     box-sizing: border-box;
+}
+
+.tramite-pasos{
+    width: 80%;
+    justify-content: flex-start;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.tramite-pasos>h3{
+    font-family: "MontseSemi";
+    font-size: .9em;
+    margin-bottom: 12px;
+
+}
+
+.tramite-pasos ul li{
+
+    line-height: 1.6em;
+    list-style: none;
+}
+
+.tramite-pasos ul li span{
+
+    font-family: "MontseBold";
+    color: #485aa4;
+    margin-right: 8px;
 }
 
 .tramite-list{
@@ -166,17 +213,74 @@
     box-sizing: border-box;
 }
 
+.tramite-list h3{
+    font-family: "MontseSemi";
+    font-size: .9em;
+    margin-bottom: 12px;
+}
+
+.tramite-list:nth-of-type(1) ul:nth-of-type(1){
+
+    margin-bottom: 24px;
+}
+
 .tramite-disclaimer{
     width: 80%;
     background-color: #485aa4;
     display: flex;
     border-radius: 20px;
+    padding: 2%;
+    box-sizing: border-box;
 }
 
 .tramite-disclaimer>p{
-    text-align: center;
+    text-align: left;
     padding: 24px;
     box-sizing: border-box;
+}
+
+.tramite-disclaimer:nth-of-type(5){
+    margin-top: 12px;
+}
+
+.tramite-factura-disclaimer{
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.tramite-foot-cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    box-sizing: border-box;
+    margin-top: 24px;
+}
+
+.tramite-foot-back{
+    cursor: pointer;
+}
+
+.tramite-foot-whats{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: #60D669;
+}
+
+.tramite-foot-whats svg{
+    width: 24px;
+    margin-right: 12px;
+}
+
+.tramite-foot-whats p{
+    font-size: .7em;
+    font-family: "MontseBold";
 }
 
 /* Extra Large Devices (Large Desktops): */
@@ -212,5 +316,157 @@
 
 @media (max-width: 576px) { 
 
+    .tramites-list, .tramites-esp-list{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+    }
+
+    .tramites-list>div, .tramites-esp-list>div{
+        width: 50%;
+        margin: 0px;
+        text-align: center;
+        background-color: #6578c3;
+        padding:8px 4px;
+        box-sizing: border-box;
+    }
+
+    .tramites-list>div>p, .tramites-esp-list>div>p {
+        font-size: calc(var(--base-font-size) + 3vw);
+        color: white;
+    }
+
+    .tramites-list> .selected-tramite, .tramites-esp-list> .selected-tramite{
+        background-color: #485aa4;
+    }
+
+    .tramites-list>.selected-tramite>p, .tramites-esp-list>.selected-tramite>p {
+        color: #e4e9ff;
+        text-decoration: unset;
+        font-family: "MontseBold";
+    }
+
+    .tramites-cont, .tramites-esp-cont {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tramites-icon, .tramites-esp-icon{
+        width: 90%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+
+    .tramites-icon>svg, .tramites-esp-icon>svg{
+        width: 30%;
+        
+    }
+
+    .tramites-icon>p, .tramites-esp-icon>p {
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 12px;
+    }
+
+    .subtramite{
+        width: 40%;
+        margin-bottom: 12px;
+    }
+
+    .subtramite>p {
+        font-size: calc(var(--base-font-size) + 2.5vw);
+    }
+
+    .tramites-detail, .tramites-esp-detail{
+        width: 100%;
+    }
+
+    .tramite-header{
+        padding-bottom: 10%;
+    }
+
+    .tramite-header-primary {
+        width: 80%;
+        padding-top: 2%;
+        position: unset;
+        left: 0%;
+    }
+    .tramite-icon{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .tramite-icon>svg{
+        width: 30%;
+    }
+
+    .tramite-icon>p {
+        width: 100%;
+        font-size: calc(var(--base-font-size) + 5vw);
+    }
+
+    .tramite-header-secondary{
+        width: 95%;
+    }
+
+    .tramite-descripcion{
+        font-size: calc(var(--base-font-size) + 4vw);
+    }
+
+    .tramite-lists-container {
+        width: 100%;
+        padding: 0%;
+    }
+
+    .tramite-list{
+        width: 100%;
+        font-size: calc(var(--base-font-size) + 3.5vw);
+        margin-bottom: 12px;
+        border-radius: 5px;
+    }
+
+    .tramite-pasos{
+        width: 90%;
+    }
+
+    .tramite-pasos>ul>li{
+        margin-bottom: 4px;
+        font-size: calc(var(--base-font-size) + 3.2vw);
+    }
+
+    .tramite-disclaimer {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .tramite-disclaimer>p {
+        font-size: calc(var(--base-font-size) + 3.5vw);
+        padding: 12px;
+    }
+
+    .tramite-factura-disclaimer{
+        margin-top: 12px;
+    }
+
+    .tramite-factura-disclaimer>h2{
+        font-size: calc(var(--base-font-size) + 4vw);
+    }
+
+    .tramite-foot-cont {
+        padding: 0px 4%;
+    }
+
+    .tramite-foot-whats {
+        width:80%;
+    }
+
+    .tramite-foot-whats p {
+        font-size: calc(var(--base-font-size) + 3vw);
+    }
 
  }

@@ -9,7 +9,6 @@ const Asesoria = ({txt}) => {
         <div className='subtitle'><p>{txt[1]}</p></div>
         <div className='inputCont'>
             <input id='aseso-name' placeholder={txt[2]}></input>
-            <input id='aseso-phone' placeholder={txt[3]}></input>
         </div>
         <div className='btnCont'><p>{txt[4]}</p></div>
       </div>

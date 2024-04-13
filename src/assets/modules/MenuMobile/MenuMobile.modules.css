@@ -35,3 +35,44 @@
   color: var(--gray);
   font-family: "MontseSemi";
 }
+
+/* Extra Large Devices (Large Desktops): */
+
+@media (min-width: 1201px) { 
+
+    
+}
+
+/* Large Devices (Desktops): */
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+
+}
+
+/* Medium Devices (Laptops): */
+
+@media (min-width: 769px) and (max-width: 992px) { 
+  
+  
+}
+
+/* Small Devices (Tablets): */
+
+@media (min-width: 577px) and (max-width: 768px) { 
+
+
+ }
+
+
+ /* Extra Small Devices (Phones): */
+
+@media (max-width: 576px) { 
+
+  .menu-mob-nav{
+    margin-bottom: 12px;
+  }
+  
+  .menu-mob-nav>p{
+    font-size: calc(var(--base-font-size) + 3.5vw);
+  }
+ }

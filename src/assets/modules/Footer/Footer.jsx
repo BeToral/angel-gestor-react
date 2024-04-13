@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='footer-wrapper'>
         <div className='footer-cont'>
-            <p><span>ADAG Morelos 2023</span> Todos los derechos reservados</p>
+            <p><span>ADAG Morelos 2024</span> Todos los derechos reservados</p>
         </div>
     </div>
   )

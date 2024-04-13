@@ -36,7 +36,7 @@ const PorQueNosotros = ({txt}) => {
         </div>
 
           <div className='values-txt'>
-            <p>
+              <p>
               {txt.values[selectedIconIndex]}
               </p>
           </div>
@@ -44,9 +44,9 @@ const PorQueNosotros = ({txt}) => {
       </div>
 
       <div className='disclaimer'>
-        
         <p>{txt.disclaimer}<div></div></p>
       </div>
+
 
     </div>
   )

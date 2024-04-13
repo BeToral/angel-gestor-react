@@ -27,12 +27,19 @@ const Nav = ({ isMobileMenuOpen, setIsMobileMenuOpen, toggleMobileMenu }) => {
 
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
+    const navbarHeight = document.getElementById('nav-wrapper').offsetHeight;
 
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-      setIsMobileMenuOpen(false);
+    if (section && navbarHeight) {
+        const offset = navbarHeight;
+        const sectionPosition = section.getBoundingClientRect().top;
+        
+        window.scrollTo({
+            top: sectionPosition + window.pageYOffset - offset,
+            behavior: 'smooth'
+        });
+        
     }
-  }
+}
 
   return (
 

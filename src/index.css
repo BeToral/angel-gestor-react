@@ -47,10 +47,12 @@ body {
 
 p{
   display: inline-block;
+  font-size: calc(var(--base-font-size) + 1vw);
 }
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --base-font-size: 1px;
   font-weight: 400;
 
   color-scheme: light;

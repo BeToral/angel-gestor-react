@@ -15,7 +15,8 @@
   }
 
   .isologo{
-    width: 7%;
+    width: 9%;
+    cursor: pointer;
   }
 
   .isologo>svg{

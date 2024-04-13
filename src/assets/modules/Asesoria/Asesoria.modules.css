@@ -4,7 +4,8 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    padding-bottom: 24px;
+    padding: 24px;
+    box-sizing: border-box;
 }
 
 .asesoria-subwrapper{
@@ -46,14 +47,14 @@
     padding: 8px;
     box-sizing: border-box;
     border-radius: 8px;
-    color: rgb(107, 107, 107);
+    color: rgb(65, 65, 65);
     font-size: .8vw;
     font-family: "MontseBold";
     text-align: center;
 }
 
 .inputCont>input::placeholder{
-    color: rgb(159, 159, 159);
+    color: rgb(98, 98, 98);
     opacity: 1;
 }
 
@@ -74,7 +75,7 @@
 .btnCont>p{
     font-size: 1vw;
     font-family: "MontseBold";
-    margin: 10px;
+    margin: 4px;
 }
 
 .btnCont:hover{
@@ -151,6 +152,10 @@
  /* Extra Small Devices (Phones): */
 
 @media (max-width: 576px) { 
+
+    .asesoria-wrapper {
+        padding: 14% 6%;
+    }
 
     .asesoria-subwrapper {
         width: 90%;

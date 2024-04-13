@@ -98,6 +98,10 @@
 
 @media (max-width: 576px) { 
 
+    #us {
+        padding-top: 12%;
+    }
+
     .nosotros-wrapper{
         width: 90%;
     }
