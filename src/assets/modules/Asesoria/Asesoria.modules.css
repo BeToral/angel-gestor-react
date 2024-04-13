@@ -72,6 +72,11 @@
     border-radius: 8px;
 }
 
+.locked{
+    opacity: .5;
+    pointer-events: none;
+}
+
 .btnCont>p{
     font-size: 1vw;
     font-family: "MontseBold";
@@ -145,6 +150,8 @@
     .btnCont>p {
         font-size: 1.8vw;
     }
+
+    
 
  }
 

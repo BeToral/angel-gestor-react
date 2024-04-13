@@ -388,8 +388,8 @@
         "Permisos":{
             "TramiteTitle":"Permisos",
             "PermisoCarga": {
-                "bgBig":"src/assets/img/tramites/tramite10-big.png",
-                "bgSquare":"src/assets/img/tramites/tramite10-square.png",
+                "bgBig":"src/assets/img/tramites/tramite11-big.png",
+                "bgSquare":"src/assets/img/tramites/tramite11-square.png",
                 "Titulo": "PERMISO DE CARGA O PLACA DE CARGA",
                 "Descripción": "<span>Si tu giro económico o emprendimiento requiere que tu camioneta(s) cuente con placas para carga de mercancía</span>, te apoyamos a emplacar de forma sencilla incluso si tu unidad no está emplacada en Morelos, la cambiamos de estado para que goces de sus beneficios.<br/>La <span>otra modalidad</span> que tenemos para ti <span>si requieres placas para que tus unidades carguen mercancía es apoyarte con el permiso de carga de Morelos</span>. Esto aplica para camionetas o camiones que ya están emplacados en Morelos pero sin placa o permiso de carga.",
                 "Requisitos": {
@@ -423,8 +423,8 @@
                 "Disclaimer":"<p><span>Tanto las placas como el permiso evitan que las autoridades de transito te multen</span> por llevar demasiada carga o por transitar en vías rápidas o durante horarios no permitidos.</p>"
             },
             "PermisoCirculacion": {
-                "bgBig":"src/assets/img/tramites/tramite10-big.png",
-                "bgSquare":"src/assets/img/tramites/tramite10-square.png",
+                "bgBig":"src/assets/img/tramites/tramite12-big.png",
+                "bgSquare":"src/assets/img/tramites/tramite12-square.png",
                 "Titulo": "PERMISO DE CIRCULACIÓN POR 30 DÍAS",
                 "Descripción": "Una situación muy común al adquirir un vehículo, es que <span>el anterior dueño no tenía los papeles del auto o moto en orden</span>, lo cual te complicara mucho cualquier movimiento administrativo que quieras realizar con tu vehículo más los gastos extra que esto implica.",
                 "Requisitos": {
@@ -452,8 +452,8 @@
         "Placas":{
             "TramiteTitle":"Placas",
             "PlacaAntigua": {
-                "bgBig":"src/assets/img/tramites/tramite10-big.png",
-                "bgSquare":"src/assets/img/tramites/tramite10-square.png",
+                "bgBig":"src/assets/img/tramites/tramite12-big.png",
+                "bgSquare":"src/assets/img/tramites/tramite12-square.png",
                 "Titulo": "PLACA DE AUTOMÓVIL ANTIGUO",
                 "Descripción": "Cuando eres un verdadero amante de los autos se nota y <span>una de las mejores maneras de demostrarlo es con una pieza de automovilismo antigua</span>, es decir un vehículo que tenga por lo menos 30 años de antigüedad a partir de la fecha de fabricación de la unidad.<br/><span>Te apoyamos a emplacar de forma sencilla tu vehículo como auto antiguo</span> si cumple con los requisitos necesarios. Del mismo modo <span>si tu auto no este emplacado actualmente en Morelos, lo emplacaremos en el estado con el debido proceso</span> de baja foránea y alta.",
                 "Requisitos": {
@@ -488,8 +488,8 @@
                 "Disclaimer": "<p>Son pocos los propietarios que obtienen placas antiguas, lo que las hace en un artículo exclusivo. Pero el prestigio no es el único beneficio que obtienes. Ya que estas placas también tienen beneficios económicos y de movilidad lo que las vuelve mucho más atractivas para conseguir.</p>"
             },
             "PlacaDiscapacitado": {
-                "bgBig":"src/assets/img/tramites/tramite10-big.png",
-                "bgSquare":"src/assets/img/tramites/tramite10-square.png",
+                "bgBig":"src/assets/img/tramites/tramite13-big.png",
+                "bgSquare":"src/assets/img/tramites/tramite13-square.png",
                 "Titulo": "PLACAS PARA DISCAPACITADO",
                 "Descripción": "Si lamentablemente tú como propietario o alguno de tus seres queridos tienen alguna discapacidad, <span>automáticamente tienen la oportunidad de emplacar para discapacitados</span>.<br/><span>Te apoyamos con el proceso de obtención de placas para discapacitado</span>. No importa si tu auto no esta emplacado en Morelos, lo emplacaremos en el estado con el debido proceso.",
                 "Requisitos": {
@@ -524,8 +524,8 @@
                 "Disclaimer": "<p>Estas placas tienen beneficios económicos y de movilidad muy importantes lo que es una enorme ventaja a la hora de transportarte o de transportar a la persona con capacidades diferentes.</p>"
             },
             "PlacaRemolque": {
-                "bgBig":"src/assets/img/tramites/tramite10-big.png",
-                "bgSquare":"src/assets/img/tramites/tramite10-square.png",
+                "bgBig":"src/assets/img/tramites/tramite14-big.png",
+                "bgSquare":"src/assets/img/tramites/tramite14-square.png",
                 "Titulo": "PLACA PARA REMOLQUE",
                 "Descripción": "<span>Si tu giro económico, actividades o emprendimiento requieren de un remolque para mover mercancía</span>, te apoyamos de forma totalmente segura y sencilla a emplacar tu remolque para inconvenientes con tránsito o peor aún, la confiscación de tu unidad.<br/><span>Hay propietarios que son muy hábiles para fabricar o tiene los medios para mandar hacer su propio remolque</span>, sea cual sea el caso, <span>las autoridades exigen que todo remolque que circule por el país cuente con su debida placa</span> que avale su registro estatal.",
                 "Requisitos": {
@@ -561,8 +561,8 @@
         "Reemplacamiento":{
             "TramiteTitle":"Reemplacamiento",
             "Reemplaca": {
-                "bgBig":"src/assets/img/tramites/tramite10-big.png",
-                "bgSquare":"src/assets/img/tramites/tramite10-square.png",
+                "bgBig":"src/assets/img/tramites/tramite15-big.png",
+                "bgSquare":"src/assets/img/tramites/tramite15-square.png",
                 "Titulo": "REEMPLACAMIENTO OBLIGATORIO (DE ACUERDO A LA NORMATIVIDAD DE MORELOS)",
                 "Descripción": "Este es el proceso menos frecuente de todos los que se hacen en Morelos, ya que únicamente <span>ocurre cuando las autoridades así lo determinan y la finalidad de este es la actualización del padrón estatal vehicular</span>. Normalmente se realiza cada 5 o 6 años.<br/><span>Es de carácter obligatorio para todo tipo de placas y lo deben cumplir todos los propietarios de vehículo en Morelos</span>, así se trate de motocicletas o remolques. La última actualización de padrón y su respectivo reemplacamiento ocurrió en el año 2019.",
                 "Requisitos": {
@@ -598,8 +598,8 @@
         "Citas":{
             "TramiteTitle":"Cita Verificación",
             "CitaVerificacion": {
-                "bgBig":"src/assets/img/tramites/tramite10-big.png",
-                "bgSquare":"src/assets/img/tramites/tramite10-square.png",
+                "bgBig":"src/assets/img/tramites/tramite16-big.png",
+                "bgSquare":"src/assets/img/tramites/tramite16-square.png",
                 "Titulo": "CITA DE VERIFICACIÓN EN MORELOS",
                 "Descripción": "<span>En caso de que solo requieras tu cita de verificación sin la necesidad de adquirir ningún otro de nuestros servicios</span>, te apoyamos con la cita solo contáctanos y te asesoramos.",
                 "Requisitos": {
@@ -625,8 +625,8 @@
         "MultasInfo":{
             "TramiteTitle":"Multas",
             "Multas": {
-                "bgBig":"src/assets/img/tramites/tramite10-big.png",
-                "bgSquare":"src/assets/img/tramites/tramite10-square.png",
+                "bgBig":"src/assets/img/tramites/tramite17-big.png",
+                "bgSquare":"src/assets/img/tramites/tramite17-square.png",
                 "Titulo": "MULTA DE VERIFICACIÓN EXTEMPORÁNEA",
                 "Descripción": "<span>Si requieres pagar tu multa de verificación pero sin otro de nuestros servicios, y no cuentas con el tiempo para ir al banco</span>, te apoyamos a pagar la multa, solo contáctanos.",
                 "Requisitos": {
@@ -652,8 +652,8 @@
         "Holograma":{
             "TramiteTitle":"Holograma Exento",
             "HologramaExento": {
-                "bgBig":"src/assets/img/tramites/tramite10-big.png",
-                "bgSquare":"src/assets/img/tramites/tramite10-square.png",
+                "bgBig":"src/assets/img/tramites/tramite18-big.png",
+                "bgSquare":"src/assets/img/tramites/tramite18-square.png",
                 "Titulo": "HOLOGRAMA DE EXENTO",
                 "Descripción": "Sin duda alguna este es por mucho el mejor holograma que puede obtener un vehículo en México y nosotros te ayudamos a conseguirlo en el estado de Morelos. <span>Holograma que solo se otorga a vehículos eléctricos o híbridos</span> que sean modelo 2014 en adelante. Los beneficios de conseguir este holograma son enormes, ya que <span>circulas diario en toda la república, incluso con doble 'no circula'. Además, esta verificación tiene una vigencia de 8 años</span> a partir de la fecha de factura del auto. Te asesoramos en cada paso del servicio.",
                 "Requisitos": {

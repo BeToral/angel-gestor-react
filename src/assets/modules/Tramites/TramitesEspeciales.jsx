@@ -73,16 +73,16 @@ const TramitesEspeciales = () => {
 
   useEffect(() => {
 
-    console.log('Selected Tramite:', selectedTramiteEsp);
-    console.log('Selected Index:', selectedEsp);
-    console.log('Selected Tramite Data:', tramitesEsp[selectedTramiteEsp]); // Log the data for the selected tramite
-    console.log('Icon Tramite Data:', tramiteEspIcons[selectedTramiteEsp]);
+    // console.log('Selected Tramite:', selectedTramiteEsp);
+    // console.log('Selected Index:', selectedEsp);
+    // console.log('Selected Tramite Data:', tramitesEsp[selectedTramiteEsp]); // Log the data for the selected tramite
+    // console.log('Icon Tramite Data:', tramiteEspIcons[selectedTramiteEsp]);
     return () => {
 
     }
   }, [selectedTramiteEsp, selectedEsp])
 
-  console.log('Tramites:', tramitesEsp);
+  // console.log('Tramites:', tramitesEsp);
 
 
   return (

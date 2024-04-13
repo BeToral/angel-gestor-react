@@ -38,8 +38,8 @@
     align-items: center;
   }
 
-#wasa-mob{
-  visibility: hidden;
+.wasa-mob>svg{
+  width: 100%;
 }
 
 .burger{
@@ -98,6 +98,11 @@
 
 .navBar p:hover{
   color: var(--mainAccent);
+}
+
+.navBar a{
+  width: 34px;
+  aspect-ratio: 1/1;
 }
 
 /* Extra Large Devices (Large Desktops): */

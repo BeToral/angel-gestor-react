@@ -1,5 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
+import { WhatsApp } from '../../icons/Icons'
 import styles from './MenuMobile.modules.css'
 
 const MenuMobile = ({ isMobileMenuOpen, toggleMobileMenu }) => {
@@ -32,6 +33,10 @@ const scrollToSection = (sectionId) => {
             <div className='menu-mob-nav' onClick={() => scrollToSection('contacto-wrapper')}>
                 <p>CONTACTO</p>
             </div>
+
+            <a className="wasa-mob" href="https://api.whatsapp.com/send?phone=525527079944" target="_blank">
+              <WhatsApp fill={"#8EA7E9"} />
+            </a>
 
         </div>
         

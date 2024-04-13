@@ -8,6 +8,7 @@ const Nav = ({ isMobileMenuOpen, setIsMobileMenuOpen, toggleMobileMenu }) => {
 
   // State to track screen width
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isWasaVisible, setIsWasaVisible] = useState(false);
 
   // Event listener to handle window resize
   const handleResize = () => {
@@ -24,6 +25,25 @@ const Nav = ({ isMobileMenuOpen, setIsMobileMenuOpen, toggleMobileMenu }) => {
       window.removeEventListener('resize', handleResize);
     };
   }, [isMobile]);
+
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const asesorWrapper = document.querySelector('.asesoria-wrapper');
+      const asesorRect = asesorWrapper.getBoundingClientRect().bottom;
+      
+      if ( asesorRect > 0 ) {
+        setIsWasaVisible( false );
+      }else{
+        setIsWasaVisible( true );
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
@@ -54,9 +74,12 @@ const Nav = ({ isMobileMenuOpen, setIsMobileMenuOpen, toggleMobileMenu }) => {
         <div id='mobile-nav' className="mobile-nav" 
         onClick={() =>{ setIsMobileMenuOpen(!isMobileMenuOpen); toggleMobileMenu();}}>
          
-         <a id="wasa-mob" href="https://api.whatsapp.com/send?phone=525527079944" target="_blank">
-              <WhatsApp fill={"#8EA7E9"}/>
-          </a>
+          {isWasaVisible && !isMobileMenuOpen && (
+            <a className="wasa-mob" href="https://api.whatsapp.com/send?phone=525527079944" target="_blank">
+              <WhatsApp fill={"#8EA7E9"} />
+            </a>
+          )}
+
 
           <div className={`burger ${isMobileMenuOpen ? 'burger-open' : ''}`}>
 
@@ -76,8 +99,14 @@ const Nav = ({ isMobileMenuOpen, setIsMobileMenuOpen, toggleMobileMenu }) => {
           <div onClick={() => scrollToSection('tramites-wrapper')}><p>CITA DE VERIFICACIÓN</p></div>
           <div onClick={() => scrollToSection('us')}><p>NOSOTROS</p></div>
           <div onClick={() => scrollToSection('contacto-wrapper')}><p>CONTACTO</p></div>
+          {isWasaVisible && (
+            <a className="wasa-mob" href="https://api.whatsapp.com/send?phone=525527079944" target="_blank">
+              <WhatsApp fill={"#8EA7E9"} />
+            </a>
+          )}
 
         </div>
+        
       )}
 
     </div>
