@@ -1,5 +1,5 @@
 [build]
-  functions = "functions/proxy.js" # Path to your serverless functions directory
+  functions = "functions/" # Path to your serverless functions directory
 
 [[headers]]
   for = "/*"
