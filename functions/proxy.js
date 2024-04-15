@@ -1,5 +1,4 @@
 const fetch = require('node-fetch'); // Import the fetch module
-const babel = require('@babel/core'); // Import Babel for transpilation
 
 exports.handler = async (event, context) => {
   try {
@@ -11,18 +10,13 @@ exports.handler = async (event, context) => {
     }
 
     // Extract the script content from the GitHub response
-    let scriptContent = await response.text();
-
-    // Transpile JSX to JavaScript
-    scriptContent = babel.transformSync(scriptContent, {
-      presets: ['@babel/preset-react']
-    }).code;
+    const scriptContent = await response.text();
 
     // Return the script content with CORS headers
     return {
       statusCode: 200,
       headers: {
-        'Access-Control-Allow-Origin': 'adagmorelos.com',
+        'Access-Control-Allow-Origin': 'https://adagmorelos.com',
         'Content-Type': 'application/javascript'
       },
       body: scriptContent
