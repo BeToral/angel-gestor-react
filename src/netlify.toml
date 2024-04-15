@@ -1,0 +1,13 @@
+[build]
+  functions = "functions/" # Path to your serverless functions directory
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+      Access-Control-Allow-Origin = "https://adagmorelos.com"
+      # Add more CORS headers as needed
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200 # Proxy requests to serverless functions
