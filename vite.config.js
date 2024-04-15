@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/proxy': {
-        target: 'http://localhost:5173/', // Port where your serverless function runs locally
+        '/api': 'http://localhost:5173/', // Port where your serverless function runs locally
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/proxy/, '') // Strip '/proxy' prefix from the request
       }
