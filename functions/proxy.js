@@ -22,7 +22,7 @@ exports.handler = async (event, context) => {
     return {
       statusCode: 200,
       headers: {
-        'Access-Control-Allow-Origin': 'https://adagmorelos.com',
+        'Access-Control-Allow-Origin': 'adagmorelos.com',
         'Content-Type': 'application/javascript'
       },
       body: scriptContent
