@@ -99,11 +99,12 @@
     flex-wrap: wrap;
     flex-direction: column;
     box-sizing: border-box;
-    padding-bottom: 12px;
+    padding-bottom: 2%;
 }
 
 .tramite-header{
     width: 100%;
+    min-height: 220px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
