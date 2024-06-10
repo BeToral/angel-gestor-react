@@ -175,7 +175,7 @@ const Tramites = () => {
                     <h3>REQUISITOS:</h3>
                     <ul>
                       {tramites[selectedTramite][selectedSubtramite].Requisitos.PersonaFisica.map((item, index) => (
-                        <li key={index}>{item}</li>
+                        <li key={index} dangerouslySetInnerHTML={{ __html: item }}></li>
                       ))}
                     </ul>
 
@@ -186,7 +186,7 @@ const Tramites = () => {
                     <h3>ADICIONAL PARA PERSONA MORAL:</h3>
                     <ul>
                       {tramites[selectedTramite][selectedSubtramite].Requisitos.Incluye.map((item, index) => (
-                        <li key={index}>{item}</li>
+                        <li key={index} dangerouslySetInnerHTML={{ __html: item }}></li>
                       ))}
                     </ul>
                   </>
@@ -199,7 +199,7 @@ const Tramites = () => {
                     <h3>INCLUYE:</h3>
                     <ul>
                       {tramites[selectedTramite][selectedSubtramite].Requisitos.Incluye.map((item, index) => (
-                        <li key={index}>{item}</li>
+                        <li key={index} dangerouslySetInnerHTML={{ __html: item }}></li>
                       ))}
                     </ul>
 

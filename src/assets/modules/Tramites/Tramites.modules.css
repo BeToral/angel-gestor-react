@@ -102,6 +102,12 @@
     padding-bottom: 2%;
 }
 
+.tramites-esp-detail>img{
+    width: 100%;
+    margin: 18px 0px;
+
+}
+
 .tramite-header{
     width: 100%;
     min-height: 220px;
@@ -168,6 +174,19 @@
     cursor: pointer;
     text-decoration: underline;
 }
+.tramite-descripcion{
+    font-weight: bold
+}
+
+.tramite-descripcion span{
+    color: #b0d7fe;;
+    
+}
+
+.tramite-descripcion h3{
+    color: white;
+    font-size: calc(var(--base-font-size) + .8vw);
+}
 
 .tramite-lists-container{
     width: 80%;
@@ -220,8 +239,9 @@
     margin-bottom: 12px;
 }
 
-.tramite-list>ul>li{
-    
+.tramite-list>ul>li>span{
+    color: #8bbff3;
+    font-weight: bold;
 }
 
 .tramite-list:nth-of-type(1) ul:nth-of-type(1){
@@ -242,6 +262,11 @@
     text-align: left;
     padding: 24px;
     box-sizing: border-box;
+}
+
+.tramite-disclaimer>span{
+    color: #8bbff3;
+    margin-left: 8px;
 }
 
 .tramite-disclaimer:nth-of-type(5){
