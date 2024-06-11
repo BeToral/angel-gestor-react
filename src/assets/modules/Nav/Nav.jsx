@@ -96,7 +96,7 @@ const Nav = ({ isMobileMenuOpen, setIsMobileMenuOpen, toggleMobileMenu }) => {
         <div className="navBar">
 
           <div onClick={() => scrollToSection('tramites-wrapper')}><p>TRÁMITES</p></div>
-          <div onClick={() => scrollToSection('tramites-wrapper')}><p>CITA DE VERIFICACIÓN</p></div>
+          <div onClick={() => scrollToSection('cita-wrapper')}><p>CITA DE VERIFICACIÓN</p></div>
           <div onClick={() => scrollToSection('us')}><p>NOSOTROS</p></div>
           <div onClick={() => scrollToSection('contacto-wrapper')}><p>CONTACTO</p></div>
           {isWasaVisible && (

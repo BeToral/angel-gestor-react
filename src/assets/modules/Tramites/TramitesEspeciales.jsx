@@ -175,7 +175,7 @@ const TramitesEspeciales = () => {
                     <h3>REQUISITOS:</h3>
                     <ul>
                       {tramitesEsp[selectedTramiteEsp][selectedSubtramiteEsp].Requisitos.PersonaFisica.map((item, index) => (
-                        <li key={index}>{item}</li>
+                        <li key={index} dangerouslySetInnerHTML={{ __html: item }}></li>
                       ))}
                     </ul>
 
@@ -186,7 +186,7 @@ const TramitesEspeciales = () => {
                     <h3>ADICIONAL PARA PERSONA MORAL:</h3>
                     <ul>
                       {tramitesEsp[selectedTramiteEsp][selectedSubtramiteEsp].Requisitos.Incluye.map((item, index) => (
-                        <li key={index}>{item}</li>
+                        <li key={index} dangerouslySetInnerHTML={{ __html: item }}></li>
                       ))}
                     </ul>
                   </>
@@ -199,7 +199,7 @@ const TramitesEspeciales = () => {
                     <h3>INCLUYE:</h3>
                     <ul>
                       {tramitesEsp[selectedTramiteEsp][selectedSubtramiteEsp].Requisitos.Incluye.map((item, index) => (
-                        <li key={index}>{item}</li>
+                        <li key={index} dangerouslySetInnerHTML={{ __html: item }}></li>
                       ))}
                     </ul>
 
@@ -238,6 +238,12 @@ const TramitesEspeciales = () => {
             <div className='tramite-disclaimer' dangerouslySetInnerHTML={{ __html: tramitesEsp[selectedTramiteEsp][selectedSubtramiteEsp].Requisitos.EnCuenta }} />
 
             )}
+
+            {/* {tramitesEsp[selectedTramiteEsp][selectedSubtramiteEsp].Calendar && (
+
+            <img src={Calendar}/>
+
+            )} */}
 
             <div className='tramite-factura-disclaimer'><h2>* Si requieres factura, podemos facturar nuestros servicios.</h2></div>
 
