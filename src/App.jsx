@@ -11,6 +11,7 @@ import PorQueNosotros from './assets/modules/PorQueNosotros'
 import Contacto from './assets/modules/Contacto'
 import Footer from './assets/modules/Footer/Footer'
 import AppTxt from './assets/json/infoTxt.json'
+import Cita from './assets/modules/Cita/Cita'
 
 function App() {
   
@@ -33,6 +34,7 @@ function App() {
       <Asesoria txt={AppTxt.Asesoria}/>
       <Tramites />
       <TramitesEspeciales />
+      <Cita id='cita' txt={AppTxt.Cita}/>
       <div id='us'>
         <QuienesSomos txt={AppTxt.Nosotros}/>
         <PorQueNosotros txt={AppTxt.Porque}/>

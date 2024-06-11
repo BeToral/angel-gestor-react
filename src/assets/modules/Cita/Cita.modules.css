@@ -1,0 +1,123 @@
+.cita-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 8%;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.cita-title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.cita-title>p{
+    font-family: "MontseBold";
+    color: var(--mainAccent);
+    font-size: 1.4vw;
+}
+
+.calendar-desk, .calendar-mob{
+    width: 80%;
+}
+
+.calendar-mob{
+    display: none;
+}
+
+.cita-list{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 32px 12px
+}
+
+.cita-list>li>p{
+    color: #777777;
+    font-family: "MontseBold";
+    font-size: .9vw;
+    margin: 12px 0px;
+}
+
+.cita-list>li>p>span{
+    color: var(--mainAccent);
+}
+
+.cita-list>li::after{
+    content: "";
+    display: block;
+    width: 20%;
+    height: 4px; 
+    background-color: #e7e7e7; 
+    margin: auto;
+    border-radius: 12px;
+}
+
+/* Extra Large Devices (Large Desktops): */
+
+@media (min-width: 1201px) { 
+
+    
+}
+
+/* Large Devices (Desktops): */
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+    
+
+}
+
+/* Medium Devices (Laptops): */
+
+@media (min-width: 769px) and (max-width: 992px) { 
+
+
+}
+
+/* Small Devices (Tablets): */
+
+@media (min-width: 577px) and (max-width: 768px) { 
+
+
+
+ }
+
+
+ /* Extra Small Devices (Phones): */
+
+@media (max-width: 576px) { 
+
+    .cita-wrapper {
+
+        padding-top: 12%;
+    }
+
+    .cita-title>p{
+        font-size: 4vw;
+    }
+
+    .cita-list>li>p {
+        font-size: 3vw;
+    }
+
+    .cita-list>li::after {
+        height: 2px;
+    }
+
+    .calendar-mob{
+        width: 100%;
+        display: flex;
+    }
+    .calendar-desk{
+        display: none;
+    }
+
+ }

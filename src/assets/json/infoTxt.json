@@ -26,7 +26,7 @@
     ],
     "Cita": {
         "title": "CITA DE VERIFICACIÓN",
-        "text": [
+        "list": [
            " <p><span>Los vehículos nuevos</span> deben verificar <span>dentro de los 180 días naturales</span> contados a partir de la fecha de la factura o carta factura.</p>",
             "<p><span>Los vehículos matriculados por primera vez</span> en el estado de Morelos, deben verificar dentro de los <span>180 días</span> naturales <span>siguientes al registro</span>.</p>",
             "<p><span>Los vehículos que obtengan permiso</span> para circular deben verificar dentro de los <span>20 días naturales siguientes al inicio de su vigencia</span>.</p>"

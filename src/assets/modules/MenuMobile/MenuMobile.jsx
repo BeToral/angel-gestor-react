@@ -24,7 +24,7 @@ const scrollToSection = (sectionId) => {
             <div className='menu-mob-nav'onClick={() => scrollToSection('tramites-wrapper')}>
                 <p>TRÁMITES</p>
             </div>
-            <div className='menu-mob-nav' onClick={() => scrollToSection('tramites-wrapper')}>
+            <div className='menu-mob-nav' onClick={() => scrollToSection('cita-wrapper')}>
                 <p>CITA DE VERIFICACIÓN</p>
             </div>
             <div className='menu-mob-nav' onClick={() => scrollToSection('us')}>
